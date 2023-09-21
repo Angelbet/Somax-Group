@@ -1,0 +1,112 @@
+[
+    {
+        "id": "chartering-and-sales-shipbrokers",
+        "title": "Chartering & Sales Shipbrokers",
+        "content": [
+            "A solid & respected brokerage team in both Tanker & Bulker field, with strong & reliable skills to cover all details from single voyage charters to contracts of affreightment and longer-term time charter hire. Our desk has established expertise in developing creative solutions to seaborne transportation problems, and has a strong track record of long-term chartering of tankers and Bulkcarriers. Our partnership with some other solid shipbrokers worlwide gives our clients the realiance of having the best team for providing the fastest & accurate solution to their needs in the chartering of Crude & Oil product tankers,Bulk & General Cargo Vessels, as well as ocean-going barges and Tugboats.",
+            "We also provide professional marine brokerage services to ship owners and buyers in the sale & purchasing bussines of second-hand vessel. Our network includes the best shipbrokers worldwide providing access to important inventory of vessels for sale."
+        ]
+    },
+    {
+        "id": "chem-oil-and-commodities-trading",
+        "title": "Chem Oil & Commodities Trading",
+        "content": [
+            "The Somax Group is your best option on the trading of Chem & Oil products worldwide, majored in the well-known NCSA commodities, with current expansion plans to Black Sea and West Africa.",
+            "We are also able & happy to comply with your needs on the clean & light- ends products framed in our strong & solid joint-venture with reliable major providers in both US and NL area, so we can match both your end buyer & our customers’ needs."
+        ],
+        "product_title": "Chem & Oil Products",
+        "products": [
+            "Methanol",
+            "HSFO",
+            "Urea",
+            "Petcoke",
+            "Cleans & Light ends"
+        ]
+    },
+    {
+        "id": "marine-and-technical-consultants",
+        "title": "Marine & Technical Consultants",
+        "content": [
+            "Strongly focused and ready to provide general conditions surveys & compliance verifications of IMO requirements by vessels & Companies, as well as quality control of cargoes and other requirements from Shipping Companies, port terminals, Shipowners and Maritime Operators on the compliance of the National and International regulations.",
+            "Somax is Made up of a highly skilled multi task team, fully motivated & focused to strengthen the operations of the Companies in the Maritime Safety area, aimed to the implementation and audits of the ISM and ISPS systems, as well as to become in a permanent solution to shipowners and Charterers in the technical area, as mandatory by IMO."
+        ],
+        "product_title": "Marine & Technical Consultants",
+        "products": [
+            "Marine Surveys",
+            "Cargo Surveys",
+            "Container Inspection",
+            "Technical Management",
+            "ISM/ISPS Audits"
+        ],
+        "characters": [
+            {
+                "characters_title": "Marine Surveys",
+                "characters_content": [
+                    "ILO-MLC 2006 Inspections for Panamanian Flag Vessels.",
+                    "Pre-Class inspections.",
+                    "General Survey in order to set documentary conditions of the vessel.",
+                    "Maritime Safety Inspections aimed to confirm the level of compliance with SOLAS regulation, MARPOL, LLC, IT",
+                    "On / Off Hire surveys.",
+                    "Bunker & draft survey.",
+                    "Apraisal & survey conditions for purchase & sale of vessels."
+                ]
+            },
+            {
+                "characters_title": "Cargo Surveys",
+                "characters_content": [
+                    "Inspection, supervision and logistics for project loads.",
+                    "Inspection of cargo conditions and its packing methods.",
+                    "P&I and Class inspections.",
+                    "Cargoes: Crude/Oil Products, Grain, General, Containerized.",
+                    "Condition survey of the cargo on board, at the port facilities, warehouses, and / or at the consignee's premises.",
+                    "Determination of the origin of cargo damage.",
+                    "Supervision of the loading & discharging processes of wet, dry & bulk cargoes."
+                ]
+            },
+            {
+                "characters_title": "Container Inspections",
+                "characters_content": [
+                    "Verification of stowage and lashing.",
+                    "Determination of cargo volumes in containers.",
+                    "Inspection of condition of seals and cargo.",
+                    "Evaluation / valuation of damages and / or losses of cargo and containers.",
+                    "Loss assessments.",
+                    "Temperature monitoring and controls.",
+                    "Control of cargo damage, cold chain verification.",
+                    "Refrigerated and fresh cargo loss analysis.",
+                    "Evaluation of damage to reefer units."
+                ]
+            },
+            {
+                "characters_title": "Technical Management",
+                "characters_content": [
+                    "Assessments of equipment, machinery and systems.",
+                    "Vessel's list of works & Drydock specs.",
+                    "Control of the maintenance & performance of the Vessel.",
+                    "Evaluation of damages on equipment, machinery and structures in the case of accidents.",
+                    "Control of the maintenance & performance of the Vessel.",
+                    "Coordination & supervision on the supply of spare parts to the Vessel as well as safety materials, provisions, publications, nautical equipment, lubricants and others.",
+                    "Follow up and supervision of vessel's repairs in Dry-dock, safety inspections, companion to Class surveys, statutory and equipment certifications.",
+                    "Arrangements of works and general repairs framed into the Class list.",
+                    "Assistance to shipowners on the quotation of works & spare parts based into quality, time and price."
+                ]
+            },
+            {
+                "characters_title": "Marine Management | ISM/ISPS Audits",
+                "characters_content": [
+                    "Management and closure of Non-Conformities.",
+                    "Preparation of training proposals.",
+                    "Crew training and procedures.",
+                    "Preparation of the Safety / Fire Fighting Plan (SOLAS).",
+                    "Preparation of SOPEP, Waste Management, SEEMP.",
+                    "Development of Safety Management Systems (SMS) for new Shipping Companies.",
+                    "Evaluation of the progress of the Security Management System (ISM) implemented by the Company on board & ashore.",
+                    "Internal audits to the Vessel (SMS) & Company (DOC), in order to verify the level of compliance in the implementation of the ISM Code.",
+                    "Safety and Risk Management on board (Safety & Security Management).",
+                    "Development and implementation of Manuals and other documents for the implementation of the ISM and ISPS (ISPS).",
+                    "SOLAS Safety and Training Manual // Training manual (FFA & LSA)."
+                ]
+            }
+        ]
+    }
+]
