@@ -21,7 +21,7 @@ function SecondSection() {
                                 its businesses.
                             </p>
                             <div className={style.main_abouttdiv}>
-                                <a href="https://www.cssgroupsite.com/about">
+                                <a href="/about">
                                     <button className={style.learn_more22}>
                                         {" "}
                                         <span className={style.circlee22} aria-hidden="true" />
@@ -33,25 +33,25 @@ function SecondSection() {
                                 <img
                                     src="https://www.cssgroupsite.com/images/ic1.webp"
                                     className={style.respimga}
-                                    alt="28 Years Experience"
+                                    alt="+30 Years Experience"
                                 />
-                                <p>28 Years of Experience.</p>
+                                <p>+30 Years of Experience.</p>
                             </div>
                             <div className={`${style.col_sm_4} ${style.points_divv}`}>
                                 <img
                                     src="https://www.cssgroupsite.com/images/ic2.webp"
                                     className={style.respimga}
-                                    alt="22 International Offices"
+                                    alt="4 International Offices"
                                 />
-                                <p>30 International Offices.</p>
+                                <p>4 International Offices.</p>
                             </div>
                             <div className={`${style.col_sm_4} ${style.points_divv}`}>
                                 <img
                                     src="https://www.cssgroupsite.com/images/ic3.webp"
                                     className={style.respimga}
-                                    alt="750+ Professionals"
+                                    alt="+15 Professionals"
                                 />
-                                <p>750+ Professionals.</p>
+                                <p>+15 Partners.</p>
                             </div>
                         </div>
                     </div>

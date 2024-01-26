@@ -14,9 +14,9 @@ function FifthSection() {
                             <div className={`${style.col_md_4} ${style.col_sm_6} ${style.col_xs_12}`}>
                                 <div className={style.process_details}>
                                     <h4>
-                                        <a href="https://www.cssgroupsite.com/our-services/global-freight-forwarding">
-                                            Global Freight <br />
-                                            Forwarding
+                                    <a href="services/chartering-and-sales-shipbrokers">
+                                            Chartering &amp; Sales <br />
+                                            <span>Shipbrokers</span>
                                         </a>
                                     </h4>
                                     <div className={style.clearfix} />{" "}
@@ -24,7 +24,7 @@ function FifthSection() {
                                     <div className={style.show_phdc}>
                                         <a
                                             style={{ color: "#b1b1b1" }}
-                                            href="https://www.cssgroupsite.com/our-services/global-freight-forwarding"
+                                            href="services/chartering-and-sales-shipbrokers"
                                         >
                                             {" "}
                                             <i className="fal fa-plus" />
@@ -52,9 +52,9 @@ function FifthSection() {
                             <div className={`${style.col_md_4} ${style.col_sm_6} ${style.col_xs_12}`}>
                                 <div className={style.process_details}>
                                     <h4>
-                                        <a href="https://www.cssgroupsite.com/our-services/ocean-freight-management">
-                                            Ocean Freight <br />
-                                            Management
+                                        <a href="services/chem-oil-and-commodities-trading">
+                                            Chem-Oil &amp; Commodities <br />
+                                            <span>Trading</span>
                                         </a>
                                     </h4>
                                     <div className={style.clearfix} />{" "}
@@ -90,9 +90,9 @@ function FifthSection() {
                             <div className={`${style.col_md_4} ${style.col_sm_6} ${style.col_xs_12}`}>
                                 <div className={style.process_details}>
                                     <h4>
-                                        <a href="https://www.cssgroupsite.com/our-services/supply-chain-management">
-                                            Supply Chain <br />
-                                            Management
+                                        <a href="services/marine-and-technical-consultants">
+                                            Marine &amp; Technical <br />
+                                            <span>Consultants</span>
                                         </a>
                                     </h4>
                                     <div className={style.clearfix} />{" "}

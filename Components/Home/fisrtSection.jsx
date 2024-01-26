@@ -1,9 +1,42 @@
-import React from 'react'
-
 // Styles
 import style from '@/styles/Home.module.scss'
 
+
+import { gsap } from "gsap";
+import { useEffect } from 'react';
+
+import second from '../../public/log0.png'
+
+
+
 function FisrtSection() {
+
+    useEffect(() => {
+        const tl = gsap.timeline({ repeat: -1, repeatDelay: 4 });
+
+        tl.set("#image0, #text0", { visibility: "" })
+            .to("#image0, #text0", 1, { opacity: 1, x: "-100%" })
+            .set("#image0, #text0", { visibility: "" })
+            .set("#image1, #text1", { visibility: "" })
+            .to("#image1, #text1", 1, { opacity: 1, x: "-100%" })
+            .set("#image1, #text1", { visibility: "" })
+            .set("#image2, #text2", { visibility: "" })
+            .to("#image2, #text2", 1, { opacity: 1, x: "-100%" })
+            .set("#image2, #text2", { visibility: "" })
+            
+            .delay(2); // Agrega un retraso de 2 segundos
+    }, []);
+
+
+
+
+
+
+
+
+
+
+
     return (
         <>
             <div id={style["wrapper"]}>
@@ -401,236 +434,111 @@ function FisrtSection() {
                     </div>
                     <div className={`${style.fl_wrap} ${style.full_height} ${style.hero_conatiner}`}>
                         <div className={`${style.hero_wrapper} ${style.fl_wrap} ${style.full_height} ${style.hidden_item}`}>
-                            {" "}
+
                             <span className={`${style.hc_dec}`} />
+
+
                             <div className={`${style.hero_slider_wrap} ${style.home_half_slider} ${style.fl_wrap} ${style.full_height}`}>
+
                                 <div className={`${style.hero_slider} ${style.fs_gallery_wrap} ${style.fl_wrap} ${style.full_height}`}>
+
                                     <div
                                         className={`${style.swiper_container} ${style.swiper_container_horizontal}`}
                                         style={{ cursor: "grabbing" }}
                                     >
+
                                         <div className={style.swiper_wrapper}>
+
+                                            {/* ======== SERV1 ======== */}
                                             <div
                                                 className={`${style.swiper_slide} ${style.swiper_slide_duplicate} ${style.swiper_slide_duplicate_active}`}
                                                 data-swiper-slide-index={4}
                                                 style={{ width: 1731 }}
+                                                id='text1'
                                             >
+
                                                 <div className={style.half_hero_wrap}>
                                                     <div className={style.hhw_header}>Welcome to Somax Group</div>
                                                     <h2>
-                                                        Hospitality &amp; Hotel <br />
-                                                        <span>Logistics</span>
+                                                        Chartering & &amp; Sales <br />
+                                                        <span>Shipbrokers</span>
                                                     </h2>
                                                     <h4>
-                                                        This division within the CSS Group recognizes the
-                                                        specialized and complex needs of the hospitality industry,
-                                                        offering an integrate...
+                                                        A solid & respected brokerage team in both Tanker & Bulker
+                                                        field, with strong & reliable skills to cover all details.
+                                                        from single voyage charters to contracts of affreightment
+                                                        and longer-term time charter hire.
                                                     </h4>
                                                     <div className={style.clearfix} />
-                                                    <a href="https://www.cssgroupsite.com/our-services/hospitality-logistics">
+                                                    <a href="services/chartering-and-sales-shipbrokers">
                                                         <button className={style.learn_more22}>
                                                             {" "}
                                                             <span className={style.circlee22} aria-hidden="true" />
                                                             <span className={style.button_text2}>View Detail</span>
                                                         </button>
                                                     </a>
-                                                    <a href="#sec3">
-                                                        <button className={style.learn_more222}>
-                                                            {" "}
-                                                            <span className={style.circlee222} aria-hidden="true" />
-                                                            <span className={style.button_text2}>Request a quote</span>
-                                                        </button>
-                                                    </a>
                                                 </div>
+
                                             </div>
-                                            {/* <div
-                                                className={`${style.swiper_slide} ${style.swiper_slide_duplicate_next}`}
-                                                data-swiper-slide-index={0}
-                                                style={{ width: 1731 }}
-                                            >
-                                                <div className={style.half_hero_wrap}>
-                                                    <div className={style.hhw_header}>Welcome to CSS Group</div>
-                                                    <h2>
-                                                        Non Vessel Operating <br />
-                                                        <span>Common Carrier</span>
-                                                    </h2>
-                                                    <h4>
-                                                        As a Non Vessel Operating Common Carrier, CSS is rated
-                                                        among the top customers of almost all leading shipping
-                                                        lines operating in the region...
-                                                    </h4>
-                                                    <div className={style.clearfix} />
-                                                    <a href="https://www.cssgroupsite.com/our-services/non-vessel-operating-common-carrier">
-                                                        <button className={style.learn_more22}>
-                                                            {" "}
-                                                            <span className={style.circlee22} aria-hidden="true" />
-                                                            <span className={style.button_text2}>View Detail</span>
-                                                        </button>
-                                                    </a>{" "}
-                                                    <a href="#sec3">
-                                                        <button className={style.learn_more222}>
-                                                            {" "}
-                                                            <span className={style.circlee222} aria-hidden="true" />
-                                                            <span className={style.button_text2}>Request a quote</span>
-                                                        </button>
-                                                    </a>
-                                                </div>
-                                            </div>
+
+                                            {/* ======== SERV2 ======== */}
                                             <div
-                                                className={style.swiper_slide}
-                                                data-swiper-slide-index={1}
-                                                style={{ width: 1731 }}
-                                            >
-                                                <div className={style.half_hero_wrap}>
-                                                    <div className={style.hhw_header}>Welcome to CSS Group</div>
-                                                    <h2>
-                                                        Ocean Freight <br />
-                                                        <span>Management</span>
-                                                    </h2>
-                                                    <h4>
-                                                        The Ocean Freight Management team of Consolidated Shipping
-                                                        Services L.L.C handles movement of cargo from/to any...
-                                                    </h4>
-                                                    <div className={style.clearfix} />
-                                                    <a href="https://www.cssgroupsite.com/our-services/ocean-freight-management">
-                                                        <button className={style.learn_more22}>
-                                                            {" "}
-                                                            <span className={style.circlee22} aria-hidden="true" />
-                                                            <span className={style.button_text2}>View Detail</span>
-                                                        </button>
-                                                    </a>
-                                                    <a href="#sec3">
-                                                        <button className={style.learn_more222}>
-                                                            {" "}
-                                                            <span className={style.circlee222} aria-hidden="true" />
-                                                            <span className={style.button_text2}>Request a quote</span>
-                                                        </button>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div
-                                                className={style.swiper_slide}
-                                                data-swiper-slide-index={2}
-                                                style={{ width: 1731 }}
-                                            >
-                                                <div className={style.half_hero_wrap}>
-                                                    <div className={style.hhw_header}>Welcome to CSS Group</div>
-                                                    <h2>
-                                                        Air Freight <br />
-                                                        <span>Management</span>
-                                                    </h2>
-                                                    <h4>
-                                                        The Air Freight Division of CSS offers innovative Air
-                                                        Cargo services. Our expertise in operations, customs
-                                                        regulations, licenses...
-                                                    </h4>
-                                                    <div className={style.clearfix} />
-                                                    <a href="https://www.cssgroupsite.com/our-services/air-freight-management">
-                                                        <button className={style.learn_more22}>
-                                                            {" "}
-                                                            <span className={style.circlee22} aria-hidden="true" />
-                                                            <span className={style.button_text2}>View Detail</span>
-                                                        </button>
-                                                    </a>
-                                                    <a href="#sec3">
-                                                        <button className={style.learn_more222}>
-                                                            {" "}
-                                                            <span className={style.circlee222} aria-hidden="true" />
-                                                            <span className={style.button_text2}>Request a quote</span>
-                                                        </button>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div
-                                                className={`${style.swiper_slide} ${style.swiper_slide_prev}`}
-                                                data-swiper-slide-index={3}
-                                                style={{ width: 1731 }}
-                                            >
-                                                <div className={style.half_hero_wrap}>
-                                                    <div className={style.hhw_header}>Welcome to CSS Group</div>
-                                                    <h2>
-                                                        Land Transportation <br />
-                                                        <span>Management</span>
-                                                    </h2>
-                                                    <h4>
-                                                        The CSS Land Transportation division has been providing
-                                                        regular full loads and services within the GCC and Levant
-                                                        countries.
-                                                    </h4>
-                                                    <div className={style.clearfix} />
-                                                    <a href="https://www.cssgroupsite.com/our-services/land-transportation-management">
-                                                        <button className={style.learn_more22}>
-                                                            {" "}
-                                                            <span className={style.circlee22} aria-hidden="true" />
-                                                            <span className={style.button_text2}>View Detail</span>
-                                                        </button>
-                                                    </a>
-                                                    <a href="#sec3">
-                                                        <button className={style.learn_more222}>
-                                                            {" "}
-                                                            <span className={style.circlee222} aria-hidden="true" />
-                                                            <span className={style.button_text2}>Request a quote</span>
-                                                        </button>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div
-                                                className={`${style.swiper_slide} ${style.swiper_slide_active}`}
+                                                className={`${style.swiper_slide} ${style.swiper_slide_duplicate} ${style.swiper_slide_duplicate_active}`}
                                                 data-swiper-slide-index={4}
                                                 style={{ width: 1731 }}
+                                                id='text2'
                                             >
+
                                                 <div className={style.half_hero_wrap}>
-                                                    <div className={style.hhw_header}>Welcome to CSS Group</div>
+                                                    <div className={style.hhw_header}>Welcome to Somax Group</div>
                                                     <h2>
-                                                        Hospitality &amp; Hotel <br />
-                                                        <span>Logistics</span>
+                                                        Chem-Oil &amp; Commodities <br />
+                                                        <span>Trading</span>
                                                     </h2>
                                                     <h4>
-                                                        This division within the CSS Group recognizes the
-                                                        specialized and complex needs of the hospitality industry,
-                                                        offering an integrate...
+                                                        The Somax Group is your best option on the trading of Chem & Oil
+                                                        products worldwide, majored in the well-known NCSA commodities,
+                                                        with current expansion plans to Black Sea and West Africa.
                                                     </h4>
                                                     <div className={style.clearfix} />
-                                                    <a href="https://www.cssgroupsite.com/our-services/hospitality-logistics">
+                                                    <a href="services/chem-oil-and-commodities-trading">
                                                         <button className={style.learn_more22}>
                                                             {" "}
                                                             <span className={style.circlee22} aria-hidden="true" />
                                                             <span className={style.button_text2}>View Detail</span>
                                                         </button>
                                                     </a>
-                                                    <a href="#sec3">
-                                                        <button className={style.learn_more222}>
-                                                            {" "}
-                                                            <span className={style.circlee222} aria-hidden="true" />
-                                                            <span className={style.button_text2}>Request a quote</span>
-                                                        </button>
-                                                    </a>
                                                 </div>
+
                                             </div>
+
+                                            {/* ======== SERV3 ======== */}
                                             <div
-                                                className={`${style.swiper_slide} ${style.swiper_slide_duplicate} ${style.swiper_slide_next}`}
-                                                data-swiper-slide-index={0}
+                                                className={`${style.swiper_slide} ${style.swiper_slide_duplicate} ${style.swiper_slide_duplicate_active}`}
+                                                data-swiper-slide-index={4}
                                                 style={{ width: 1731 }}
+                                                id='text2'
                                             >
+
                                                 <div className={style.half_hero_wrap}>
-                                                    <div className={style.hhw_header}>Welcome to CSS Group</div>
+                                                    <div className={style.hhw_header}>Welcome to Somax Group</div>
                                                     <h2>
-                                                        Non Vessel Operating <br />
-                                                        <span>Common Carrier</span>
+                                                        Marine &amp; Technical <br />
+                                                        <span>Consultants</span>
                                                     </h2>
                                                     <h4>
-                                                        As a Non Vessel Operating Common Carrier, CSS is rated
-                                                        among the top customers of almost all leading shipping
-                                                        lines operating in the region...
+                                                        Strongly focused and ready to provide general conditions
+                                                        surveys & compliance verifications of IMO requirements by
+                                                        vessels & Companies.
                                                     </h4>
                                                     <div className={style.clearfix} />
-                                                    <a href="https://www.cssgroupsite.com/our-services/non-vessel-operating-common-carrier">
+                                                    <a href="services/marine-and-technical-consultants">
                                                         <button className={style.learn_more22}>
                                                             {" "}
                                                             <span className={style.circlee22} aria-hidden="true" />
                                                             <span className={style.button_text2}>View Detail</span>
                                                         </button>
-                                                    </a>{" "}
+                                                    </a>
                                                     <a href="#sec3">
                                                         <button className={style.learn_more222}>
                                                             {" "}
@@ -639,46 +547,47 @@ function FisrtSection() {
                                                         </button>
                                                     </a>
                                                 </div>
-                                            </div> */}
+
+                                            </div>
+
+
                                         </div>
-                                        <span
-                                            className={style.swiper_notification}
-                                            aria-live="assertive"
-                                            aria-atomic="true"
-                                        />
+
+                                        <span className={style.swiper_notification} />
                                     </div>
+
+
+
                                 </div>
                             </div>
+
                             <div className={`${style.hero_slider_img} ${style.hero_slider_wrap_halftwo} ${style.hidden_item}`}>
                                 <div className={`${style.swiper_container} ${style.swiper_container_horizontal}`}>
-                                    <div
-                                        className={style.swiper_wrapper}
-                                        style={{
-                                            transitionDuration: "0ms",
-                                            transform: "translate3d(-0px, 0px, 0px)"
-                                        }}
-                                    >
+                                    <div className={style.swiper_wrapper}>
+
                                         <div
                                             className={`${style.swiper_slide} ${style.swiper_slide_duplicate} ${style.swiper_slide_duplicate_active}`}
                                             data-swiper-slide-index={4}
                                             style={{ width: 1272 }}
+                                            id='image1'
                                         >
                                             <div
                                                 className={style.bg}
                                                 data-bg="https://www.cssgroupsite.com/images/slider6.webp"
-                                                data-swiper-parallax="20%"
                                                 style={{
-                                                    backgroundImage: 'url("https://www.cssgroupsite.com/images/slider6.webp")',
+                                                    backgroundImage: 'url("../home/bote_y_balsa.jpg")',
                                                     transitionDuration: "0ms",
                                                     transform: "translate3d(0%, 0px, 0px)"
                                                 }}
                                             />
                                             <div className={style.overlay} />
                                         </div>
-                                        {/* <div
-                                            className={`${style.swiper_slide} ${style.swiper_slide_duplicate_next}`}
-                                            data-swiper-slide-index={0}
+
+                                        <div
+                                            className={`${style.swiper_slide} ${style.swiper_slide_duplicate} ${style.swiper_slide_duplicate_active}`}
+                                            data-swiper-slide-index={4}
                                             style={{ width: 1272 }}
+                                            id='image2'
                                         >
                                             <div
                                                 className={style.bg}
@@ -687,96 +596,32 @@ function FisrtSection() {
                                                 style={{
                                                     backgroundImage: 'url("https://www.cssgroupsite.com/images/slider1.webp")',
                                                     transitionDuration: "0ms",
-                                                    transform: "translate3d(20%, 0px, 0px)"
+                                                    transform: "translate3d(0%, 0px, 0px)"
                                                 }}
                                             />
                                             <div className={style.overlay} />
                                         </div>
+
                                         <div
-                                            className={style.swiper_slide}
-                                            data-swiper-slide-index={1}
-                                            style={{ width: 1272 }}
-                                        >
-                                            <div
-                                                className={style.bg}
-                                                data-bg="images/slider2.webp"
-                                                data-swiper-parallax="20%"
-                                                style={{
-                                                    backgroundImage: 'url("images/slider2.webp")',
-                                                    transitionDuration: "0ms",
-                                                    transform: "translate3d(20%, 0px, 0px)"
-                                                }}
-                                            />
-                                            <div className={style.overlay} />
-                                        </div>
-                                        <div
-                                            className={style.swiper_slide}
-                                            data-swiper-slide-index={2}
-                                            style={{ width: 1272 }}
-                                        >
-                                            <div
-                                                className={style.bg}
-                                                data-bg="images/slider3.webp"
-                                                data-swiper-parallax="20%"
-                                                style={{
-                                                    backgroundImage: 'url("images/slider3.webp")',
-                                                    transitionDuration: "0ms",
-                                                    transform: "translate3d(20%, 0px, 0px)"
-                                                }}
-                                            />
-                                            <div className={style.overlay} />
-                                        </div>
-                                        <div
-                                            className={`${style.swiper_slide} ${style.swiper_slide_prev}`}
-                                            data-swiper-slide-index={3}
-                                            style={{ width: 1272 }}
-                                        >
-                                            <div
-                                                className={style.bg}
-                                                data-bg="images/slider4.webp"
-                                                data-swiper-parallax="20%"
-                                                style={{
-                                                    backgroundImage: 'url("images/slider4.webp")',
-                                                    transitionDuration: "0ms",
-                                                    transform: "translate3d(19.3715%, 0px, 0px)"
-                                                }}
-                                            />
-                                            <div className={style.overlay} />
-                                        </div>
-                                        <div
-                                            className={`${style.swiper_slide} ${style.swiper_slide_active}`}
+                                            className={`${style.swiper_slide} ${style.swiper_slide_duplicate} ${style.swiper_slide_duplicate_active}`}
                                             data-swiper-slide-index={4}
                                             style={{ width: 1272 }}
+                                            id='image3'
                                         >
                                             <div
                                                 className={style.bg}
-                                                data-bg="images/slider6.webp"
+                                                data-bg="https://www.cssgroupsite.com/images/slider1.webp"
                                                 data-swiper-parallax="20%"
                                                 style={{
-                                                    backgroundImage: 'url("images/slider6.webp")',
+                                                    backgroundImage: 'url("https://www.cssgroupsite.com/images/slider1.webp")',
                                                     transitionDuration: "0ms",
-                                                    transform: "translate3d(-0.628539%, 0px, 0px)"
+                                                    transform: "translate3d(0%, 0px, 0px)"
                                                 }}
                                             />
                                             <div className={style.overlay} />
                                         </div>
-                                        <div
-                                            className={`${style.swiper_slide} ${style.swiper_slide_duplicate} ${style.swiper_slide_next}`}
-                                            data-swiper-slide-index={0}
-                                            style={{ width: 1272 }}
-                                        >
-                                            <div
-                                                className={style.bg}
-                                                data-bg="images/slider1.webp"
-                                                data-swiper-parallax="20%"
-                                                style={{
-                                                    backgroundImage: 'url("images/slider1.webp")',
-                                                    transitionDuration: "0ms",
-                                                    transform: "translate3d(-20%, 0px, 0px)"
-                                                }}
-                                            />
-                                            <div className={style.overlay} />
-                                        </div> */}
+
+
                                     </div>
                                     <span
                                         className={style.swiper_notification}
@@ -787,6 +632,7 @@ function FisrtSection() {
                                 <div className={`${style.hero_corner_dec}`} />
                                 <div className={style.hero_corner_dec2} />
                             </div>
+
                             <div className={`${style.slider_progress_bar} ${style.act_slider}`}>
                                 {" "}
                                 <span>

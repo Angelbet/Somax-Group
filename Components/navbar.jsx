@@ -8,7 +8,7 @@ function Navbar() {
     return (
         <>
             <header className={style.main_header}>
-                <a href="https://www.cssgroupsite.com" className={style.logo_holder}>
+                <a href="/" className={style.logo_holder}>
                     SOMAX GROUP
                 </a>
                 <div className={`${style.nav_button} ${style.but_hol}`}>
@@ -20,13 +20,13 @@ function Navbar() {
                 </div>
                 <div className={style.header_contacts}>
                     <ul>
-                        <li>
+                        {/* <li>
                             <span>Call</span>{" "}
                             <a href="callNumber('+971 4 883 1303')">+971 4 883 1303</a>
-                        </li>
+                        </li> */}
                         <li>
                             <span>Mail</span>{" "}
-                            <a href="mailto:info@cssdubai.com">info@cssdubai.com</a>
+                            <a href="mailto:info@cssdubai.com">info@somaxgroup.com</a>
                         </li>
                     </ul>{" "}
                     <a href="" className={`${style.ajax} ${style.contacts_btn}`}>

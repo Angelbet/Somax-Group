@@ -16,59 +16,59 @@ function FourSection() {
                     <div className={style.row}>
                         <div className={`${style.col_sm_7} ${style.pt_80}`}>
                             <div className={`${style.main_about} ${style.main_global} ${style.fl_wrap} ${style.pl_30}`}>
-                                <h2 className={`${style.clra} ${style.p_0}`}>CSS GROUP'S</h2>
+                                <h2 className={`${style.clra} ${style.p_0}`}>Somax Group</h2>
                                 <h2>GLOBAL PRESENCE</h2>
                                 <p className={style.ptt}>
-                                    Over the past 28 years, the CSS Group has expanded across South Asia
-                                    and the Middle East.
+                                    Somax Group has alliances and commercial partners in some countries,
+                                    throughout 4 continents, which allows us to offer a global service of quality,
+                                    efficiency and reliability, 24/7.
                                 </p>
-                                <p>With branches across</p>
                                 <p className={style.branches}>
-                                    <a href="https://www.cssgroupsite.com/location/css-dubai">Dubai</a>{" "}
+                                    <a href="https://www.cssgroupsite.com/location/css-dubai">Panama</a>{" "}
                                     |{" "}
                                     <a href="https://www.cssgroupsite.com/location/css-abudhabi">
-                                        Abu Dhabi
+                                        Colombia
                                     </a>{" "}
                                     |{" "}
                                     <a href="https://www.cssgroupsite.com/location/css-sharjah">
-                                        Sharjah
+                                        Brasil
                                     </a>{" "}
                                     |{" "}
                                     <a href="https://www.cssgroupsite.com/location/css-ras-al-khaimah">
-                                        Ras-Al-Khaimah
+                                        USA
                                     </a>{" "}
                                     |{" "}
                                     <a href="https://www.cssgroupsite.com/location/css-bahrain">
-                                        Bahrain
+                                        Nigeria
                                     </a>{" "}
-                                    | <a href="https://www.cssgroupsite.com/location/css-oman">Oman</a>{" "}
+                                    | <a href="https://www.cssgroupsite.com/location/css-oman">Greece</a>{" "}
                                     |{" "}
-                                    <a href="https://www.cssgroupsite.com/location/css-qatar">Qatar</a>{" "}
+                                    <a href="https://www.cssgroupsite.com/location/css-qatar">Turkey</a>{" "}
                                     |{" "}
                                     <a href="https://www.cssgroupsite.com/location/css-saudiarabia">
-                                        Saudi Arabia
+                                        Italy
                                     </a>{" "}
                                     |{" "}
                                     <a href="https://www.cssgroupsite.com/location/css-kuwait">
-                                        Kuwait
+                                        Egypt
                                     </a>{" "}
-                                    | <a href="https://www.cssgroupsite.com/location/css-iraq">Iraq</a>{" "}
-                                    |<a href="https://www.cssgroupsite.com/location/css-kenya">Kenya</a>{" "}
+                                    | <a href="https://www.cssgroupsite.com/location/css-iraq">Thailand</a>{" "}
+                                    |<a href="https://www.cssgroupsite.com/location/css-kenya">United Kingdom</a>{" "}
                                     |
                                     <a href="https://www.cssgroupsite.com/location/css-turkey">
-                                        Turkey
+                                    South Korea
                                     </a>{" "}
                                     |{" "}
-                                    <a href="https://www.cssgroupsite.com/location/css-india">India</a>{" "}
+                                    <a href="https://www.cssgroupsite.com/location/css-india">Spain</a>{" "}
                                     |{" "}
                                     <a href="https://www.cssgroupsite.com/location/css-srilanka">
-                                        Sri Lanka
+                                        Venezuela
                                     </a>
                                 </p>
                                 <p>
-                                    The CSS Group works with the best talent, resources and partners
-                                    across the globe to enable premium &amp; high-quality services to
-                                    its customers.
+                                    Our associates are internationally certificated in ship brokerage, audits,
+                                    inspections, supervision and certification of cargo, trading on different
+                                    commodities.
                                 </p>
                                 <a href="https://www.cssgroupsite.com/contact-us" className="abt-cnt">
                                     <button className={style.learn_more22}>

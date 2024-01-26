@@ -40,26 +40,31 @@ function ThirdSection() {
                             </h2>
                             <ul>
                                 <li>
-                                    <span>COMMITMENT</span>
+                                    <span>Honesty</span>
                                     We strive to remain committed towards our goals, objectives and
                                     targets
                                 </li>
                                 <li>
-                                    <span>INTEGRITY</span>
+                                    <span>Reliability</span>
                                     We commit ourselves in being honest and ethical in all our actions
                                     carried out
                                 </li>
                                 <li>
-                                    <span>TEAMWORK</span>
+                                    <span>Love for what we do</span>
                                     We support each other’s work and strongly collaborate as a team
                                 </li>
                                 <li>
-                                    <span>INNOVATION</span>
+                                    <span>Commitment</span>
                                     We encourage creative and disruptive ideas for providing effective
                                     integrated logistic solutions to our customers
                                 </li>
                                 <li>
-                                    <span>NURTURING RELATIONSHIPS</span>
+                                    <span>Teamwork</span>
+                                    We foster long standing relationship with our employees, vendors,
+                                    service providers and customers
+                                </li>
+                                <li>
+                                    <span>Strive wholeheartedly for excellence</span>
                                     We foster long standing relationship with our employees, vendors,
                                     service providers and customers
                                 </li>
