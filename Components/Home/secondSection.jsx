@@ -33,9 +33,9 @@ function SecondSection() {
                                 <img
                                     src="https://www.cssgroupsite.com/images/ic1.webp"
                                     className={style.respimga}
-                                    alt="+30 Years Experience"
+                                    alt="+15 Years Experience"
                                 />
-                                <p>+30 Years of Experience.</p>
+                                <p>+15 Years of Experience.</p>
                             </div>
                             <div className={`${style.col_sm_4} ${style.points_divv}`}>
                                 <img

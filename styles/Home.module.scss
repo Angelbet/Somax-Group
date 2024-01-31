@@ -1515,9 +1515,9 @@ img.deskdot {
 
 .swiper_container_autoheight .swiper_wrapper {
   -webkit-box-align: start;
-  -webkit-align-items: flex-start;
+  -webkit-align-items: center;
   -ms-flex-align: start;
-  align-items: flex-start;
+  align-items: center;
   -webkit-transition-property: height, -webkit-transform;
   transition-property: height, -webkit-transform;
   -o-transition-property: transform, height;

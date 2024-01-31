@@ -22,16 +22,17 @@ function ThirdSection() {
                                 <span>OUR</span> VISION
                             </h2>
                             <p>
-                                We will innovate and adopt the latest trends to be the leading
-                                integrated logistics service provider in the regions we operate
+                                The best & most reliable option in the Maritime Consultancy
+                                field, as well as in the Trading of Oil & soft Commodities,
+                                always willing to innovate and adapt to new technologies.
                             </p>
                             <h2>
                                 <span>OUR</span> MISSION
                             </h2>
                             <p>
-                                Providing competitive logistics solutions through efficient
-                                technology, to gain the highest level of customer satisfaction, while
-                                nurturing sustainable business relationships
+                                We were born to provide solid and reliable solutions to our
+                                clients in their Maritime Transportation and commoditie´s
+                                trading businesses.
                             </p>
                         </div>
                         <div className={`${style.col_sm_12} ${style.col_md_7}`}>

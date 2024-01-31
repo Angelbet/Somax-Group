@@ -17,7 +17,7 @@ function FourSection() {
                         <div className={`${style.col_sm_7} ${style.pt_80}`}>
                             <div className={`${style.main_about} ${style.main_global} ${style.fl_wrap} ${style.pl_30}`}>
                                 <h2 className={`${style.clra} ${style.p_0}`}>Somax Group</h2>
-                                <h2>GLOBAL PRESENCE</h2>
+                                <h2>Around the World</h2>
                                 <p className={style.ptt}>
                                     Somax Group has alliances and commercial partners in some countries,
                                     throughout 4 continents, which allows us to offer a global service of quality,
@@ -64,6 +64,10 @@ function FourSection() {
                                     <a href="https://www.cssgroupsite.com/location/css-srilanka">
                                         Venezuela
                                     </a>
+                                    |{" "}
+                                    <a href="https://www.cssgroupsite.com/location/css-srilanka">
+                                        China
+                                    </a>
                                 </p>
                                 <p>
                                     Our associates are internationally certificated in ship brokerage, audits,
@@ -97,13 +101,12 @@ function FourSection() {
                                             >
                                                 <div
                                                     className={`${style.swiper_slide} ${style.hov_zoom} ${style.swiper_slide_duplicate} ${style.swiper_slide_prev}`}
-                                                    data-swiper-slide-index={10}
-                                                    style={{ width: 387 }}
+                                                    // style={{ width: 387 }}
                                                 >
-                                                    <a href="https://www.cssgroupsite.com/location/css-srilanka" />
-                                                    <a href="https://www.cssgroupsite.com/location/css-dubai">
+                                                    <a href="#" />
+                                                    <a href="#">
                                                         <img
-                                                            src="https://www.cssgroupsite.com/images/sri-lanka.webp"
+                                                            src="https://somaxgroup.com/assets/img/Home/world_map.png"
                                                             alt="location"
                                                             width="591px"
                                                             height="591px"
@@ -299,7 +302,7 @@ function FourSection() {
                                             />
                                         </div>
                                     </div>
-                                    <div
+                                    {/* <div
                                         className={`${style.ss_slider_cont} ${style.ss_slider_cont_prev}`}
                                         tabIndex={0}
                                         role="button"
@@ -314,7 +317,7 @@ function FourSection() {
                                         aria-label="Next slide"
                                     >
                                         <i className="fal fa-angle-right" />
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

@@ -453,7 +453,7 @@ function FisrtSection() {
                                             <div
                                                 className={`${style.swiper_slide} ${style.swiper_slide_duplicate} ${style.swiper_slide_duplicate_active}`}
                                                 data-swiper-slide-index={4}
-                                                style={{ width: 1731 }}
+                                                style={{ width: 1272 }}
                                                 id='text1'
                                             >
 
@@ -485,7 +485,7 @@ function FisrtSection() {
                                             <div
                                                 className={`${style.swiper_slide} ${style.swiper_slide_duplicate} ${style.swiper_slide_duplicate_active}`}
                                                 data-swiper-slide-index={4}
-                                                style={{ width: 1731 }}
+                                                style={{ width: 1272 }}
                                                 id='text2'
                                             >
 
@@ -516,8 +516,8 @@ function FisrtSection() {
                                             <div
                                                 className={`${style.swiper_slide} ${style.swiper_slide_duplicate} ${style.swiper_slide_duplicate_active}`}
                                                 data-swiper-slide-index={4}
-                                                style={{ width: 1731 }}
-                                                id='text2'
+                                                style={{ width: 1272 }}
+                                                id='text3'
                                             >
 
                                                 <div className={style.half_hero_wrap}>
@@ -568,7 +568,7 @@ function FisrtSection() {
                                         <div
                                             className={`${style.swiper_slide} ${style.swiper_slide_duplicate} ${style.swiper_slide_duplicate_active}`}
                                             data-swiper-slide-index={4}
-                                            style={{ width: 1272 }}
+                                            style={{ width: 941 }}
                                             id='image1'
                                         >
                                             <div
@@ -586,7 +586,7 @@ function FisrtSection() {
                                         <div
                                             className={`${style.swiper_slide} ${style.swiper_slide_duplicate} ${style.swiper_slide_duplicate_active}`}
                                             data-swiper-slide-index={4}
-                                            style={{ width: 1272 }}
+                                            style={{ width: 941 }}
                                             id='image2'
                                         >
                                             <div
@@ -605,7 +605,7 @@ function FisrtSection() {
                                         <div
                                             className={`${style.swiper_slide} ${style.swiper_slide_duplicate} ${style.swiper_slide_duplicate_active}`}
                                             data-swiper-slide-index={4}
-                                            style={{ width: 1272 }}
+                                            style={{ width: 941 }}
                                             id='image3'
                                         >
                                             <div
