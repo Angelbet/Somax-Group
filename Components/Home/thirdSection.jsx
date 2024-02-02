@@ -10,7 +10,7 @@ function ThirdSection() {
                 className={style.scroll_sec}
                 id={style["vmcv"]}
                 style={{
-                    background: "url(https://www.cssgroupsite.com/images/head-office.jpg) no-repeat center center",
+                    background: "url(./bulkers.jpg) no-repeat center center",
                     backgroundSize: "cover",
                     backgroundAttachment: "fixed"
                 }}

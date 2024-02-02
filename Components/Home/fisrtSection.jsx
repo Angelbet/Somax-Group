@@ -12,19 +12,17 @@ import second from '../../public/log0.png'
 function FisrtSection() {
 
     useEffect(() => {
-        const tl = gsap.timeline({ repeat: -1, repeatDelay: 4 });
+        const images = ["#image1", "#image2", "#image3"];
+        const texts = ["#text1", "#text2", "#text3"];
 
-        tl.set("#image0, #text0", { visibility: "" })
-            .to("#image0, #text0", 1, { opacity: 1, x: "-100%" })
-            .set("#image0, #text0", { visibility: "" })
-            .set("#image1, #text1", { visibility: "" })
-            .to("#image1, #text1", 1, { opacity: 1, x: "-100%" })
-            .set("#image1, #text1", { visibility: "" })
-            .set("#image2, #text2", { visibility: "" })
-            .to("#image2, #text2", 1, { opacity: 1, x: "-100%" })
-            .set("#image2, #text2", { visibility: "" })
-            
-            .delay(2); // Agrega un retraso de 2 segundos
+        const tl = gsap.timeline({ repeat: -1 });
+
+        for (let i = 0; i < images.length; i++) {
+            tl.to(images[i], { duration: 1, opacity: 1, })
+                .to(texts[i], { duration: 1, opacity: 1,  }, "<")
+                .to(images[i], { duration: 1, opacity: 0, display: "none"  }, "+=1")
+                .to(texts[i], { duration: 1, opacity: 0, display: "none"  }, "+=1");
+        }
     }, []);
 
 
@@ -460,7 +458,7 @@ function FisrtSection() {
                                                 <div className={style.half_hero_wrap}>
                                                     <div className={style.hhw_header}>Welcome to Somax Group</div>
                                                     <h2>
-                                                        Chartering & &amp; Sales <br />
+                                                        Chartering &amp; Sales <br />
                                                         <span>Shipbrokers</span>
                                                     </h2>
                                                     <h4>
@@ -487,6 +485,7 @@ function FisrtSection() {
                                                 data-swiper-slide-index={4}
                                                 style={{ width: 1272 }}
                                                 id='text2'
+                                                
                                             >
 
                                                 <div className={style.half_hero_wrap}>
@@ -573,9 +572,8 @@ function FisrtSection() {
                                         >
                                             <div
                                                 className={style.bg}
-                                                data-bg="https://www.cssgroupsite.com/images/slider6.webp"
                                                 style={{
-                                                    backgroundImage: 'url("../home/bote_y_balsa.jpg")',
+                                                    backgroundImage: 'url("../services/chartering-and-sales-shipbrokers.jpg")',
                                                     transitionDuration: "0ms",
                                                     transform: "translate3d(0%, 0px, 0px)"
                                                 }}
@@ -591,10 +589,8 @@ function FisrtSection() {
                                         >
                                             <div
                                                 className={style.bg}
-                                                data-bg="https://www.cssgroupsite.com/images/slider1.webp"
-                                                data-swiper-parallax="20%"
                                                 style={{
-                                                    backgroundImage: 'url("https://www.cssgroupsite.com/images/slider1.webp")',
+                                                    backgroundImage: 'url("../services/chem-oil-and-commodities-trading.jpeg")',
                                                     transitionDuration: "0ms",
                                                     transform: "translate3d(0%, 0px, 0px)"
                                                 }}
@@ -610,10 +606,8 @@ function FisrtSection() {
                                         >
                                             <div
                                                 className={style.bg}
-                                                data-bg="https://www.cssgroupsite.com/images/slider1.webp"
-                                                data-swiper-parallax="20%"
                                                 style={{
-                                                    backgroundImage: 'url("https://www.cssgroupsite.com/images/slider1.webp")',
+                                                    backgroundImage: 'url("../services/marine-and-technical-consultants.jpg")',
                                                     transitionDuration: "0ms",
                                                     transform: "translate3d(0%, 0px, 0px)"
                                                 }}

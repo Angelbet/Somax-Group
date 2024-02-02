@@ -1,7 +1,11 @@
-import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
 
 // Styles
 import style from '@/styles/Home.module.scss'
+
+// Images
+import about_home from '@/public/about-home.jpg'
 
 function SecondSection() {
     return (
@@ -21,13 +25,13 @@ function SecondSection() {
                                 its businesses.
                             </p>
                             <div className={style.main_abouttdiv}>
-                                <a href="/about">
+                                <Link href="/about">
                                     <button className={style.learn_more22}>
                                         {" "}
                                         <span className={style.circlee22} aria-hidden="true" />
                                         <span className={style.button_text2}>Discover More</span>
                                     </button>
-                                </a>
+                                </Link>
                             </div>
                             <div className={`${style.col_sm_4} ${style.points_divv}`}>
                                 <img
@@ -57,8 +61,8 @@ function SecondSection() {
                     </div>
                     <div className={style.col_sm_7}>
                         <div className={`${style.dec_img} ${style.fl_wrap}`}>
-                            <img
-                                src="https://www.cssgroupsite.com/images/about-home.webp"
+                            <Image
+                                src={about_home}
                                 className={style.respimg}
                                 alt="about-home"
                             />
