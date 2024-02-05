@@ -20,7 +20,7 @@ function FifthSection() {
                                         </a>
                                     </h4>
                                     <div className={style.clearfix} />{" "}
-                                    <span className={style.process_numder}>1</span>
+                                    {/* <span className={style.process_numder}>1</span> */}
                                     <div className={style.show_phdc}>
                                         <a
                                             style={{ color: "#b1b1b1" }}
@@ -58,7 +58,7 @@ function FifthSection() {
                                         </a>
                                     </h4>
                                     <div className={style.clearfix} />{" "}
-                                    <span className={`${style.process_numder}`}>2</span>
+                                    {/* <span className={`${style.process_numder}`}>2</span> */}
                                     <div className={style.show_phdc}>
                                         <a
                                             style={{ color: "#b1b1b1" }}
@@ -96,7 +96,7 @@ function FifthSection() {
                                         </a>
                                     </h4>
                                     <div className={style.clearfix} />{" "}
-                                    <span className={style.process_numder}>3</span>
+                                    {/* <span className={style.process_numder}>3</span> */}
                                     <div className={style.show_phdc}>
                                         <a
                                             style={{ color: "#b1b1b1" }}

@@ -14,14 +14,13 @@ function FisrtSection() {
     useEffect(() => {
         const images = ["#image1", "#image2", "#image3"];
         const texts = ["#text1", "#text2", "#text3"];
-
+    
         const tl = gsap.timeline({ repeat: -1 });
-
+    
         for (let i = 0; i < images.length; i++) {
-            tl.to(images[i], { duration: 1, opacity: 1, })
-                .to(texts[i], { duration: 1, opacity: 1,  }, "<")
-                .to(images[i], { duration: 1, opacity: 0, display: "none"  }, "+=1")
-                .to(texts[i], { duration: 1, opacity: 0, display: "none"  }, "+=1");
+            tl.set([images[i], texts[i]], { display: "block" })
+               .to([images[i], texts[i]], { duration: 1, opacity: 1 })
+               .to([images[i], texts[i]], { duration: 1, opacity: 0, display: "none" }, "+=2");
         }
     }, []);
 

@@ -14,7 +14,7 @@ function SecondSection() {
                 <div className={style.row}>
                     <div className={`${style.col_sm_5} ${style.pt_80}`}>
                         <div className={`${style.main_about} ${style.fl_wrap} ${style.pl_30}`}>
-                            <h2>ABOUT THE</h2>
+                            <h2>ABOUT</h2>
                             <h1 className={style.clra}>SOMAX GROUP</h1>
                             <p>
                                 A privately held group of companies, founded as a necessary
