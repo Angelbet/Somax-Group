@@ -14,13 +14,13 @@ function FisrtSection() {
     useEffect(() => {
         const images = ["#image1", "#image2", "#image3"];
         const texts = ["#text1", "#text2", "#text3"];
-    
+
         const tl = gsap.timeline({ repeat: -1 });
-    
+
         for (let i = 0; i < images.length; i++) {
             tl.set([images[i], texts[i]], { display: "block" })
-               .to([images[i], texts[i]], { duration: 1, opacity: 1 })
-               .to([images[i], texts[i]], { duration: 1, opacity: 0, display: "none" }, "+=2");
+                .to([images[i], texts[i]], { duration: 1, opacity: 1 })
+                .to([images[i], texts[i]], { duration: 1, opacity: 0, display: "none" }, "+=2");
         }
     }, []);
 
@@ -484,7 +484,7 @@ function FisrtSection() {
                                                 data-swiper-slide-index={4}
                                                 style={{ width: 1272 }}
                                                 id='text2'
-                                                
+
                                             >
 
                                                 <div className={style.half_hero_wrap}>
@@ -673,10 +673,10 @@ function FisrtSection() {
                                     </span>
                                 </div>
                             </div>
-                            <a id="sec22btn" href="#sec22btn" className={style.start_btn}>
+                            <a id="sec22btn" href="#About_footer_home__12CsD" className={style.start_btn}>
                                 <span>
                                     {" "}
-                                    Start Exploring
+                                    Contact Us
                                     <i className="fal fa-long-arrow-right" />
                                 </span>
                             </a>

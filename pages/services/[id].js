@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 
 // Styles
 import style from '@/styles/About.module.scss'
@@ -51,32 +52,6 @@ function ProductPage({ service }) {
                     <div id={style["wrapper"]}>
                         <div className={style.content}>
 
-                            {/* === */}
-                            <div className={style.page_scroll_nav}>
-                                <nav className={`${style.scroll_init} ${style.page_scroll_nav_wrap}`}>
-                                    <ul className={`${style.no_list_style} ${style.init_hidden_filter}`}>
-                                        <li>
-                                            <a className={`${style.scroll_link} ${style.fbgs}`} href="#sec1">
-                                                <span>Overview</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a className={`${style.scroll_link} ${style.fbgs} ${style.act_sec}`} href="#sec2">
-                                                <span>Request Rates</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <div className={`${style.psn_button} ${style.act_filter}`}>
-                                        <i className="fal fa-sort" /> More{" "}
-                                    </div>
-                                    <div className={`${style.psn_button} ${style.lighthouse_filter}`}>
-                                        <a href="https://cssgroupsite.com/lighthouse/" target="_blank">
-                                            Lighthouse
-                                        </a>
-                                    </div>
-                                </nav>
-                            </div>
-                            {/* === */}
 
                             {/* === */}
                             <div className={`${style.hero_section_dec} ${style.color_bg}`}>
@@ -117,9 +92,9 @@ function ProductPage({ service }) {
                                                                 className={style.swiper_wrapper}
                                                                 style={{ transitionDuration: "0ms" }}
                                                             >
+
                                                                 <div
                                                                     className={`${style.swiper_slide} ${style.swiper_slide_duplicate} ${style.swiper_slide_duplicate_active}`}
-                                                                    data-swiper-slide-index={1}
                                                                     style={{
                                                                         width: 776,
                                                                         transitionDuration: "0ms",
@@ -133,16 +108,14 @@ function ProductPage({ service }) {
                                                                     >
                                                                         <div
                                                                             className={`${style.bg} ${style.par_elem}`}
-                                                                            data-bg="https://www.cssgroupsite.com/images/services/gff-2.jpg"
                                                                             style={{
-                                                                                backgroundImage:
-                                                                                    'url("https://www.cssgroupsite.com/images/services/gff-2.jpg")'
+                                                                                backgroundImage: `url(../services/${service.image_bg})`
                                                                             }}
                                                                         />
                                                                     </div>
                                                                 </div>
                                                                 {/*ms_item*/}
-                                                                <div
+                                                                {/* <div
                                                                     className={`${style.swiper_slide} ${style.swiper_slide_prev} ${style.swiper_slide_duplicate_next}`}
                                                                     data-swiper-slide-index={0}
                                                                     style={{
@@ -165,10 +138,10 @@ function ProductPage({ service }) {
                                                                             }}
                                                                         />
                                                                     </div>
-                                                                </div>
+                                                                </div> */}
                                                                 {/*ms_item end*/}
                                                                 {/*ms_item*/}
-                                                                <div
+                                                                {/* <div
                                                                     className={`${style.swiper_slide} ${style.swiper_slide_active}`}
                                                                     data-swiper-slide-index={1}
                                                                     style={{
@@ -191,9 +164,9 @@ function ProductPage({ service }) {
                                                                             }}
                                                                         />
                                                                     </div>
-                                                                </div>
+                                                                </div> */}
                                                                 {/*ms_item end*/}
-                                                                <div
+                                                                {/* <div
                                                                     className={`${style.swiper_slide} ${style.swiper_slide_duplicate} ${style.swiper_slide_next} ${style.swiper_slide_duplicate_prev}`}
                                                                     data-swiper-slide-index={0}
                                                                     style={{
@@ -216,7 +189,7 @@ function ProductPage({ service }) {
                                                                             }}
                                                                         />
                                                                     </div>
-                                                                </div>
+                                                                </div> */}
                                                             </div>
                                                             <span
                                                                 className={style.swiper_notification}
@@ -233,7 +206,7 @@ function ProductPage({ service }) {
                                                 </div>
                                                 {/*fixed-column-wrap_title*/}
                                                 <div className={`${style.fixed_column_wrap_title} ${style.first_tile_load}`}>
-                                                    <h2>Global Freight Forwarding</h2>
+                                                    {/* <h2>Global Freight Forwarding</h2> */}
                                                 </div>
                                                 {/*fixed-column-wrap_title end*/}
                                                 <div className={style.fixed_column_dec} />
@@ -340,8 +313,9 @@ function ProductPage({ service }) {
                                                                 <></>
                                                             )}
 
+
                                                             <img
-                                                                src="https://www.cssgroupsite.com/images/services/gff-3.jpg"
+                                                                src={`../services/${service.image}`}
                                                                 alt="Global Freight Forwarding"
                                                                 style={{ width: "100%" }}
                                                             />
@@ -363,225 +337,116 @@ function ProductPage({ service }) {
                                             <section className={`${style.scroll_sec} ${style.pt_0}`} id={style["sec3"]}>
                                                 <div className={style.footer_div1}>
                                                     <div className={`${style.footer_div1_2} ${style.w_100}`}>
-                                                        <h3>Quick Links</h3>{" "}
+                                                        <h3>Mails</h3>{" "}
                                                         <ul>
                                                             {" "}
                                                             <li>
                                                                 {" "}
-                                                                <a href="https://www.cssgroupsite.com">Home</a>{" "}
-                                                            </li>{" "}
-                                                            <li>
-                                                                {" "}
-                                                                <a href="https://www.cssgroupsite.com/about">About</a>{" "}
-                                                            </li>{" "}
-                                                            <li>
-                                                                {" "}
-                                                                <a href="https://www.cssgroupsite.com/about?#sec2">Services</a>{" "}
-                                                            </li>{" "}
-                                                            <li>
-                                                                {" "}
-                                                                <a
-                                                                    href="https://www.cssgroupsite.com/lighthouse/news-media/"
-                                                                    target="_blank"
-                                                                >
-                                                                    News Media
+                                                                <a href="mailto:ceo@somaxgroup.com" target="_blank">
+                                                                    ceo@somaxgroup.com
                                                                 </a>{" "}
                                                             </li>{" "}
                                                             <li>
                                                                 {" "}
-                                                                <a href="https://www.cssgroupsite.com/careers">Careers</a>{" "}
-                                                            </li>{" "}
-                                                            <li>
-                                                                {" "}
-                                                                <a href="https://www.cssgroupsite.com/contact-us">Contact Us</a>{" "}
-                                                            </li>{" "}
-                                                            <li>
-                                                                {" "}
-                                                                <a
-                                                                    href="https://www.cssgroupsite.com/downloads/css-brochure.pdf"
-                                                                    target="_blank"
-                                                                >
-                                                                    Corporate Brochure
+                                                                <a href="mailto:commercial@somaxgroup.com" target="_blank">
+                                                                    commercial@somaxgroup.com
                                                                 </a>{" "}
                                                             </li>{" "}
                                                             <li>
                                                                 {" "}
-                                                                <a
-                                                                    href="https://cdn.teztri.com/css/CSSGroupPresentation_2023_FINAL1.pptm"
-                                                                    target="_blank"
-                                                                >
-                                                                    CSS Corporate PPT
-                                                                </a>{" "}
-                                                            </li>{" "}
-                                                            <li>
-                                                                {" "}
-                                                                <a href="https://cssgroupsite.com/lighthouse/" target="_blank">
-                                                                    Lighthouse
-                                                                </a>{" "}
-                                                            </li>
-                                                            <li>
-                                                                <a href="https://www.cssgroupsite.com/privacy-policy">
-                                                                    Privacy Policy
+                                                                <a href="mailto:technical@somaxgroup.com" target="_blank">
+                                                                    technical@somaxgroup.com
                                                                 </a>
-                                                            </li>
+                                                                {" "}
+                                                            </li>{" "}
                                                             <li>
-                                                                <a href="https://www.cssgroupsite.com/cookie-policy">Cookie Policy</a>
-                                                            </li>
+                                                                {" "}
+                                                                <a href="mailto:administration@somaxgroup.com" target="_blank">
+                                                                    administration@somaxgroup.com
+                                                                </a>
+                                                                {" "}
+                                                            </li>{" "}
                                                             <li>
-                                                                <a href="https://www.cssgroupsite.com/disclaimer">Disclaimer</a>
-                                                            </li>
+                                                                {" "}
+                                                                <a href="mailto:chartering@somaxgroup.com" target="_blank">
+                                                                    chartering@somaxgroup.com
+                                                                </a>
+                                                                {" "}
+                                                            </li>{" "}
+
                                                         </ul>
-                                                        <h3>Locations</h3>{" "}
+                                                        <h3>Interesting Links</h3>{" "}
                                                         <ul>
                                                             {" "}
                                                             <li>
                                                                 {" "}
-                                                                <a href="https://www.cssgroupsite.com/location/css-dubai">
-                                                                    Dubai
-                                                                </a>{" "}
+                                                                <a href="www.imo.org" target="_blank">
+                                                                    www.imo.org
+                                                                </a>
+                                                                {" "}
                                                             </li>{" "}
                                                             <li>
                                                                 {" "}
-                                                                <a href="https://www.cssgroupsite.com/location/css-abudhabi">
-                                                                    Abu Dhabi
-                                                                </a>{" "}
+                                                                <a href="www.ilo.org" target="_blank">
+                                                                    www.ilo.org
+                                                                </a>
+                                                                {" "}
                                                             </li>{" "}
                                                             <li>
                                                                 {" "}
-                                                                <a href="https://www.cssgroupsite.com/location/css-sharjah">
-                                                                    Sharjah
-                                                                </a>{" "}
+                                                                <a href="www.bimco.org" target="_blank">www.bimco.org</a>{" "}
                                                             </li>{" "}
                                                             <li>
                                                                 {" "}
-                                                                <a href="https://www.cssgroupsite.com/location/css-ras-al-khaimah">
-                                                                    Ras Al Khaimah
-                                                                </a>{" "}
+                                                                <a href="www.intertanko.com" target="_blank">www.intertanko.com</a>{" "}
                                                             </li>{" "}
                                                             <li>
                                                                 {" "}
-                                                                <a href="https://www.cssgroupsite.com/location/css-bahrain">
-                                                                    Bahrain
-                                                                </a>{" "}
+                                                                <a href="www.marinetraffic.com" target="_blank">www.marinetraffic.com</a>{" "}
                                                             </li>{" "}
                                                             <li>
                                                                 {" "}
-                                                                <a href="https://www.cssgroupsite.com/location/css-oman">Oman</a>{" "}
-                                                            </li>{" "}
-                                                            <li>
-                                                                {" "}
-                                                                <a href="https://www.cssgroupsite.com/location/css-qatar">
-                                                                    Qatar
-                                                                </a>{" "}
-                                                            </li>{" "}
-                                                            <li>
-                                                                {" "}
-                                                                <a href="https://www.cssgroupsite.com/location/css-saudiarabia">
-                                                                    Saudi Arabia
-                                                                </a>{" "}
-                                                            </li>{" "}
-                                                            <li>
-                                                                {" "}
-                                                                <a href="https://www.cssgroupsite.com/location/css-kuwait">
-                                                                    Kuwait
-                                                                </a>{" "}
-                                                            </li>{" "}
-                                                            <li>
-                                                                {" "}
-                                                                <a href="https://www.cssgroupsite.com/location/css-iraq">Iraq</a>{" "}
-                                                            </li>{" "}
-                                                            <li>
-                                                                {" "}
-                                                                <a href="https://www.cssgroupsite.com/location/css-kenya">
-                                                                    Kenya
-                                                                </a>{" "}
-                                                            </li>{" "}
-                                                            <li>
-                                                                {" "}
-                                                                <a href="https://www.cssgroupsite.com/location/css-turkey">
-                                                                    Turkey
-                                                                </a>{" "}
-                                                            </li>{" "}
-                                                            <li>
-                                                                {" "}
-                                                                <a href="https://www.cssgroupsite.com/location/css-india">
-                                                                    India
-                                                                </a>{" "}
-                                                            </li>{" "}
-                                                            <li>
-                                                                {" "}
-                                                                <a href="https://www.cssgroupsite.com/location/css-srilanka">
-                                                                    Sri Lanka
-                                                                </a>{" "}
+                                                                <a href="www.spglobal.com" target="_blank">www.spglobal.com</a>{" "}
                                                             </li>{" "}
                                                         </ul>
-                                                        <h3>Subscribe to our bi-monthly newsletter, Lighthouse</h3>
-                                                        <a href="https://www.cssgroupsite.com/subscribe-now">
-                                                            <button>Subscribe Now</button>
-                                                        </a>
+
+                                                        <h3>Products & Services</h3>{" "}
+                                                        <ul>
+                                                            {" "}
+                                                            <li>
+                                                                {" "}
+                                                                <Link href="./chartering-and-sales-shipbrokers">
+                                                                    Chartering &amp; Sales Shipbrokers
+                                                                </Link>
+                                                                {" "}
+                                                            </li>{" "}
+                                                            <li>
+                                                                {" "}
+                                                                <Link href="./chem-oil-and-commodities-trading">
+                                                                    Chem-Oil &amp; Commodities Trading
+                                                                </Link>
+
+                                                                {" "}
+                                                            </li>{" "}
+                                                            <li>
+                                                                {" "}
+                                                                <a href="./marine-and-technical-consultants">
+                                                                    Marine &amp; Technical
+                                                                    Consultants</a>{" "}
+                                                            </li>{" "}
+                                                        </ul>
+
                                                         <div className={style.footer_copy}>
                                                             <div className={style.footer_copy1}>
                                                                 {" "}
                                                                 <span>Follow Us</span>{" "}
-                                                                <ul>
-                                                                    {" "}
-                                                                    <li>
-                                                                        <a href="https://www.facebook.com/cssgroupsite" target="_blank">
-                                                                            <img
-                                                                                src="https://www.cssgroupsite.com/images/facbk.webp"
-                                                                                alt="CSS Group"
-                                                                            />
-                                                                        </a>
-                                                                    </li>{" "}
-                                                                    <li>
-                                                                        <a
-                                                                            href="https://www.instagram.com/consolidated_shipping_group/"
-                                                                            target="_blank"
-                                                                        >
-                                                                            <img
-                                                                                src="https://www.cssgroupsite.com/images/insta.webp"
-                                                                                alt="CSS Group"
-                                                                            />
-                                                                        </a>
-                                                                    </li>{" "}
-                                                                    <li>
-                                                                        <a href="https://twitter.com/CSSGroups" target="_blank">
-                                                                            <img
-                                                                                src="https://www.cssgroupsite.com/images/twitt.webp"
-                                                                                alt="CSS Group"
-                                                                            />
-                                                                        </a>
-                                                                    </li>{" "}
-                                                                    <li>
-                                                                        <a
-                                                                            href="https://www.linkedin.com/company/consolidated-shipping-services/"
-                                                                            target="_blank"
-                                                                        >
-                                                                            <img
-                                                                                src="https://www.cssgroupsite.com/images/linkd.webp"
-                                                                                alt="CSS Group"
-                                                                            />
-                                                                        </a>
-                                                                    </li>{" "}
-                                                                    <li>
-                                                                        <a
-                                                                            href="https://www.youtube.com/user/ConsolidatedShipping"
-                                                                            target="_blank"
-                                                                        >
-                                                                            <img
-                                                                                src="https://www.cssgroupsite.com/images/yutbe.webp"
-                                                                                alt="CSS Group"
-                                                                            />
-                                                                        </a>
-                                                                    </li>{" "}
-                                                                </ul>{" "}
                                                             </div>
                                                             <div className={style.footer_copy2}>
-                                                                <p>© 2023 CSS Group. All Rights Reserved.</p>
+                                                                <p>© {new Date().getFullYear()} Somax Group. All Rights Reserved.</p>
                                                                 <p>
-                                                                    Crafted With <i className="fal fa-heart" /> By{" "}
-                                                                    <a href="https://netventure.in/" target="_blank">
-                                                                        NetVenture
+                                                                    By{" "}
+                                                                    <a href="https://angelbev.vercel.app" target="_blank">
+                                                                        Angeldev
                                                                     </a>
                                                                 </p>
                                                             </div>

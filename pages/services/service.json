@@ -5,11 +5,13 @@
         "content": [
             "A solid & respected brokerage team in both Tanker & Bulker field, with strong & reliable skills to cover all details from single voyage charters to contracts of affreightment and longer-term time charter hire. Our desk has established expertise in developing creative solutions to seaborne transportation problems, and has a strong track record of long-term chartering of tankers and Bulkcarriers. Our partnership with some other solid shipbrokers worlwide gives our clients the realiance of having the best team for providing the fastest & accurate solution to their needs in the chartering of Crude & Oil product tankers,Bulk & General Cargo Vessels, as well as ocean-going barges and Tugboats.",
             "We also provide professional marine brokerage services to ship owners and buyers in the sale & purchasing bussines of second-hand vessel. Our network includes the best shipbrokers worldwide providing access to important inventory of vessels for sale."
-        ]
+        ],
+        "image": "service_1/src_1.jpeg",
+        "image_bg": "service_1/src_2.jpg"
     },
     {
         "id": "chem-oil-and-commodities-trading",
-        "title": "Chem Oil & Commodities Trading",
+        "title": "Chem & Oil Commodities Trading",
         "content": [
             "The Somax Group is your best option on the trading of Chem & Oil products worldwide, majored in the well-known NCSA commodities, with current expansion plans to Black Sea and West Africa.",
             "We are also able & happy to comply with your needs on the clean & light- ends products framed in our strong & solid joint-venture with reliable major providers in both US and NL area, so we can match both your end buyer & our customers’ needs."
@@ -21,7 +23,9 @@
             "Urea",
             "Petcoke",
             "Cleans & Light ends"
-        ]
+        ],
+        "image": "service_2/src_1.png",
+        "image_bg": "service_2/src_2.jpeg"
     },
     {
         "id": "marine-and-technical-consultants",
@@ -107,6 +111,8 @@
                     "SOLAS Safety and Training Manual // Training manual (FFA & LSA)."
                 ]
             }
-        ]
+        ],
+        "image": "service_3/src_1.png",
+        "image_bg": "service_3/src_2.jpg"
     }
 ]

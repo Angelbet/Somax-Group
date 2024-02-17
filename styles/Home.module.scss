@@ -140,12 +140,14 @@ $orange: #f89d13;
 .pl_spinner:before,
 .loading_text_container:before {
   border-right-color: $orange;
+  border-top-color: $orange;
 }
 
 .hc_dec,
 .pl_spinner:before,
 .loading_text_container:before {
   border-left-color: $orange;
+  border-bottom-color: $orange;
 }
 
 .hc_dec:before {
@@ -1220,7 +1222,7 @@ p.branches {
   padding-bottom: 30px;
   font-family: 'Oswald', sans-serif;
   position: relative;
-  line-height: 60px;
+  line-height: 42px;
 }
 
 .main_about p {
@@ -1757,7 +1759,7 @@ img.deskdot {
   .main_about p {
     font-size: 16px;
     padding-bottom: 4%;
-    line-height: 28px;
+    line-height: 24px;
     padding-top: 10px;
   }
 

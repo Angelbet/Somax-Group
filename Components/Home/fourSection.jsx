@@ -1,4 +1,8 @@
 import React from 'react'
+import Image from 'next/image'
+
+// Images
+import deskdot from '@/public/deskdot.png'
 
 // Styles
 import style from '@/styles/Home.module.scss'
@@ -7,8 +11,8 @@ function FourSection() {
     return (
         <>
             <section className={`${style.scroll_sec} ${style.bgclra} ${style.pb_80}`} id={style["sec1"]}>
-                <img
-                    src="https://www.cssgroupsite.com/images/deskdot.webp"
+                <Image
+                    src={deskdot}
                     alt="deskdot"
                     className={style.deskdot}
                 />
@@ -16,8 +20,8 @@ function FourSection() {
                     <div className={style.row}>
                         <div className={`${style.col_sm_7} ${style.pt_80}`}>
                             <div className={`${style.main_about} ${style.main_global} ${style.fl_wrap} ${style.pl_30}`}>
-                                <h2 className={`${style.clra} ${style.p_0}`}>Somax Group</h2>
-                                <h2>Around the World</h2>
+                                <h2 className={`${style.clra} ${style.p_0}`}>SOMAX GROUP</h2>
+                                <h2>AROUND THE WORLD</h2>
                                 <p className={style.ptt}>
                                     Somax Group has alliances and commercial partners in some countries,
                                     throughout 4 continents, which allows us to offer a global service of quality,
@@ -56,7 +60,7 @@ function FourSection() {
                                     |<a href="https://www.cssgroupsite.com/location/css-kenya">United Kingdom</a>{" "}
                                     |
                                     <a href="https://www.cssgroupsite.com/location/css-turkey">
-                                    South Korea
+                                        South Korea
                                     </a>{" "}
                                     |{" "}
                                     <a href="https://www.cssgroupsite.com/location/css-india">Spain</a>{" "}
@@ -101,7 +105,7 @@ function FourSection() {
                                             >
                                                 <div
                                                     className={`${style.swiper_slide} ${style.hov_zoom} ${style.swiper_slide_duplicate} ${style.swiper_slide_prev}`}
-                                                    // style={{ width: 387 }}
+                                                // style={{ width: 387 }}
                                                 >
                                                     <a href="#" />
                                                     <a href="#">

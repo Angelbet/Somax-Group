@@ -103,12 +103,13 @@ function Navbar() {
             <div className={`${style.hc_dec_color}`}>
                 <div className={style.page_subtitle}>
                     <ul className={style.ul_page_subtitle}>
-                        {/* <li>
+                        <li>
                             <div id={style["nav"]}>
                                 <a className={style.dropdown_toggle}>
-                                    Login
+                                    Perseverance and dedication always pay off... <br />
+                                    We love what we do
                                 </a>
-                                <ul className={style.dropdown} style={{}}>
+                                {/* <ul className={style.dropdown} style={{}}>
                                     <li>
                                         <a
                                             href="http://portal.cssdubai.net/CustomerLogin/Customer_Login.aspx"
@@ -141,10 +142,10 @@ function Navbar() {
                                             CSS India Login
                                         </a>
                                     </li>
-                                </ul>
+                                </ul> */}
                             </div>
                         </li>
-                        <li>
+                        {/* <li>
                             <a
                                 href="http://portal.cssdubai.net/TrackandTraceCSS/TrackandTrace.aspx"
                                 target="_blank"
