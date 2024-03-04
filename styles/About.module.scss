@@ -477,12 +477,15 @@ $orange: #f89d13;
 }
 
 #footer_home .footer_top h4 {
-    font-size: 16px;
+    font-size: 23px;
     font-weight: bold;
     color: #f89d13;
     position: relative;
     padding-bottom: 12px;
-    text-align: start;  
+    text-align: start;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #footer_home .footer_top .footer_links {
@@ -493,6 +496,7 @@ $orange: #f89d13;
     list-style: none;
     padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 #footer_home .footer_top .footer_links ul i {
@@ -1151,6 +1155,7 @@ ul.lists li {
     color: #fff;
     font-weight: 700;
     font-size: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .logo_holder img {
@@ -1205,6 +1210,7 @@ ul.lists li {
     font-size: 10px;
     color: rgba(255, 255, 255, 0.51);
     letter-spacing: 4px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header_contacts li:before {
@@ -1525,6 +1531,7 @@ div#nav ul.dropdown li a:hover {
     position: relative;
     display: inline-block;
     color: #fff;
+    font-family: 'Poppins', sans-serif;
 }
 
 .page_subtitle:before {

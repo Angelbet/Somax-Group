@@ -380,33 +380,42 @@ function ProductPage({ service }) {
                                                             {" "}
                                                             <li>
                                                                 {" "}
-                                                                <a href="www.imo.org" target="_blank">
+                                                                <Link href="https://www.imo.org" target="_blank">
                                                                     www.imo.org
-                                                                </a>
+                                                                </Link>
                                                                 {" "}
                                                             </li>{" "}
                                                             <li>
                                                                 {" "}
-                                                                <a href="www.ilo.org" target="_blank">
+                                                                <Link href="https://www.ilo.org/" target="_blank">
                                                                     www.ilo.org
-                                                                </a>
+                                                                </Link>
                                                                 {" "}
                                                             </li>{" "}
                                                             <li>
                                                                 {" "}
-                                                                <a href="www.bimco.org" target="_blank">www.bimco.org</a>{" "}
+                                                                <Link href="https://www.bimco.org" target="_blank">
+                                                                    www.bimco.org
+                                                                </Link>
+                                                            </li>
+                                                            {" "}
+                                                            <li>
+                                                                {" "}
+                                                                <Link href="https://www.intertanko.com" target="_blank">
+                                                                    www.intertanko.com
+                                                                </Link>{" "}
                                                             </li>{" "}
                                                             <li>
                                                                 {" "}
-                                                                <a href="www.intertanko.com" target="_blank">www.intertanko.com</a>{" "}
+                                                                <Link href="https://www.marinetraffic.com" target="_blank">
+                                                                    www.marinetraffic.com
+                                                                </Link>{" "}
                                                             </li>{" "}
                                                             <li>
                                                                 {" "}
-                                                                <a href="www.marinetraffic.com" target="_blank">www.marinetraffic.com</a>{" "}
-                                                            </li>{" "}
-                                                            <li>
-                                                                {" "}
-                                                                <a href="www.spglobal.com" target="_blank">www.spglobal.com</a>{" "}
+                                                                <Link href="https://www.spglobal.com/en/" target="_blank">
+                                                                    www.spglobal.com
+                                                                </Link>{" "}
                                                             </li>{" "}
                                                         </ul>
 

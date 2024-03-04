@@ -18,11 +18,13 @@ function FisrtSection() {
         const tl = gsap.timeline({ repeat: -1 });
 
         for (let i = 0; i < images.length; i++) {
-            tl.set([images[i], texts[i]], { display: "block" })
-                .to([images[i], texts[i]], { duration: 1, opacity: 1 })
-                .to([images[i], texts[i]], { duration: 1, opacity: 0, display: "none" }, "+=2");
+            tl.set([images[i], texts[i]], { display: "block", x: -100 }) // Desplaza inicialmente los elementos 100px a la izquierda
+                .to([images[i], texts[i]], { duration: 1, opacity: 1, x: 0 }) // Los mueve a su posición original con opacidad completa
+                .to([images[i], texts[i]], { duration: 1, opacity: 0, x: 100 }, "+=1") // Los mueve 100px a la derecha y los oculta
+                .to([images[i], texts[i]], { display: "none", x: 0 }, "+=1"); // Los devuelve a su posición original y los oculta
         }
     }, []);
+
 
 
 
@@ -673,7 +675,7 @@ function FisrtSection() {
                                     </span>
                                 </div>
                             </div>
-                            <a id="sec22btn" href="#About_footer_home__12CsD" className={style.start_btn}>
+                            <a href="#footer0" className={style.start_btn}>
                                 <span>
                                     {" "}
                                     Contact Us

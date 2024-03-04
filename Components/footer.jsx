@@ -8,7 +8,7 @@ function Footer() {
     return (
         <>
 
-            <section className={style.testimonials}>
+            <section id="footer0" className={style.testimonials}>
                 <div className={style.container} data-aos="zoom-in" />
             </section>
 
@@ -59,37 +59,37 @@ function Footer() {
                                 <h4>Interesting Links</h4>
                                 <ul>
                                     <li>
-                                        <Link href="www.imo.org" target="_blank">
+                                        <Link href="https://www.imo.org" target="_blank">
                                             www.imo.org
                                         </Link>
                                     </li>
                                     <li>
-                                        <a href="www.ilo.org" target="_blank">
+                                        <Link href="https://www.ilo.org/" target="_blank">
                                             www.ilo.org
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="www.bimco.org" target="_blank">
+                                        <Link href="https://www.bimco.org" target="_blank">
                                             www.bimco.org
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
                                         <i className="bx bx-chevron-right" />{" "}
-                                        <a href="www.intertanko.com" target="_blank">
+                                        <Link href="https://www.intertanko.com" target="_blank">
                                             www.intertanko.com
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
                                         <i className="bx bx-chevron-right" />{" "}
-                                        <a href="www.marinetraffic.com" target="_blank">
+                                        <Link href="https://www.marinetraffic.com" target="_blank">
                                             www.marinetraffic.com
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
                                         <i className="bx bx-chevron-right" />{" "}
-                                        <a href="www.spglobal.com" target="_blank">
+                                        <Link href="https://www.spglobal.com/en/" target="_blank">
                                             www.spglobal.com
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -100,21 +100,21 @@ function Footer() {
                                 <ul>
                                     <li>
                                         <i className="bx bx-chevron-right" />{" "}
-                                        <a href="Chartering-&-Sales-Shipbrokers.html">
+                                        <Link href="services/chartering-and-sales-shipbrokers">
                                             Chartering &amp; Sales Shipbrokers
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
                                         <i className="bx bx-chevron-right" />{" "}
-                                        <a href="Chem-Oil-&-Commodities-Trading.html">
+                                        <Link href="services/chem-oil-and-commodities-trading">
                                             Chem-Oil &amp; Commodities Trading
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
                                         <i className="bx bx-chevron-right" />{" "}
-                                        <a href="Marine-&-Technical-Consultants.html">
+                                        <Link href="services/marine-and-technical-consultants">
                                             Marine &amp; Technical Consultants
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>

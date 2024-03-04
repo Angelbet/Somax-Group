@@ -441,6 +441,7 @@ p.branches {
   font-weight: 800;
   letter-spacing: 2px;
   padding-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .half_hero_wrap h1,
@@ -463,6 +464,7 @@ p.branches {
   max-width: 550px;
   font-size: 14px;
   font-weight: normal;
+  font-family: 'Poppins', sans-serif;
 }
 
 .clearfix:before,
@@ -762,8 +764,9 @@ p.branches {
   letter-spacing: 2px;
   font-size: 13px;
   background: #343434;
-  font-weight: normal;
+  font-weight: bold;
   border-left: 6px solid;
+  font-family: 'Poppins', sans-serif;
 }
 
 .start_btn {
@@ -1427,6 +1430,7 @@ p.branches {
   max-width: 70%;
   font-size: 16px;
   line-height: 27px;
+  font-family: 'Poppins', sans-serif;
 }
 
 @media (min-width: 1064px) {
@@ -1675,6 +1679,7 @@ img.deskdot {
   top: -1px;
   font-weight: 500;
   letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .process_details .bg {
@@ -1739,8 +1744,6 @@ img.deskdot {
 .process_details:hover .bg {
   display: block;
 }
-
-
 
 
 
@@ -3010,6 +3013,7 @@ img.deskdot {
     font-size: 10px;
     padding-bottom: 10px;
   }
+
 
   .share_btn {
     width: 80px;

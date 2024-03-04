@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 // Styles
 // import style from '@/styles/Navbar.module.scss'
@@ -8,9 +9,9 @@ function Navbar() {
     return (
         <>
             <header className={style.main_header}>
-                <a href="/" className={style.logo_holder}>
+                <Link href="/" className={style.logo_holder}>
                     SOMAX GROUP
-                </a>
+                </Link>
                 <div className={`${style.nav_button} ${style.but_hol}`}>
                     {" "}
                     {/* <span className={style.ncs} />

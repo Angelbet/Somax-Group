@@ -27,7 +27,7 @@ export default function About() {
                         <div className={styles.content}>
                             <div className={`${style.container} ${style.content_container}`}>
                                 <div className={style.row}>
-                                    <div className={style.content_right}>
+                                    {/* <div className={style.content_right}>
                                         <div className="">
                                             <div className={style.pr_bg} />
                                             <div className={`${style.fixed_column_wrap_content}`}>
@@ -205,7 +205,7 @@ export default function About() {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className={`${style.content_left}`}>
                                         <div className={`${style.column_wrap_}`}>
                                             <div className={`${style.column_wrap_container_} ${style.fl_wrap}`}>
