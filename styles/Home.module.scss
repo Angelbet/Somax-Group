@@ -428,8 +428,8 @@ p.branches {
 
 .half_hero_wrap {
   position: absolute;
-  top: 30%;
-  left: 45%;
+  top: 20%;
+  left: 35%;
 }
 
 .hhw_header {
@@ -454,6 +454,7 @@ p.branches {
   position: relative;
   line-height: 66px;
   font-family: 'Oswald', sans-serif;
+  max-width: 535px;
 }
 
 .half_hero_wrap h4 {
@@ -1225,7 +1226,7 @@ p.branches {
   padding-bottom: 30px;
   font-family: 'Oswald', sans-serif;
   position: relative;
-  line-height: 42px;
+  line-height: 53px;
 }
 
 .main_about p {
@@ -1754,7 +1755,7 @@ img.deskdot {
 
 @media only screen and (min-width: 1024px) and (max-width: 1600px) {
   .hc_dec {
-    left: 32%;
+    left: 35%;
   }
 }
 
@@ -1769,7 +1770,7 @@ img.deskdot {
   .main_about h1,
   .main_global h2 {
     font-size: 55px;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
   }
 
   .fixed_column_wrap {
@@ -1865,6 +1866,16 @@ img.deskdot {
 
 @media only screen and (max-width: 1260px) {
 
+  .half_hero_wrap {
+    top: 8vw;
+    left: 32vw;
+  }
+
+  .half_hero_wrap h1,
+  .half_hero_wrap h2 {
+    max-width: 510px;
+  }
+  
   .section_title h3,
   .section_title h1 {
     font-size: 38px;

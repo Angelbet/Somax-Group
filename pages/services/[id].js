@@ -321,10 +321,10 @@ function ProductPage({ service }) {
                                                             />
                                                         </div>
                                                     </div>
-                                                    <div className={style.section_number}>
+                                                    {/* <div className={style.section_number}>
                                                         {" "}
                                                         <span>0</span>1.{" "}
-                                                    </div>
+                                                    </div> */}
                                                 </section>
                                                 {/* section end*/}
                                                 <div className={`${style.section_separator} ${style.fl_wrap}`}>
