@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 
 // Images
+import map from '@/public/map.jpeg'
 import deskdot from '@/public/deskdot.png'
 import map_1 from '@/public/world/1__panama.png'
 import map_2 from '@/public/world/2__colombia.png'
@@ -323,8 +324,8 @@ function FourSection() {
                                                     ref={baseImageRef}
                                                 >
                                                     <a href="#">
-                                                        <img
-                                                            src="https://somaxgroup.com/assets/img/Home/world_map.png"
+                                                        <Image
+                                                            src={map}
                                                             alt="location"
                                                             width="591px"
                                                             height="591px"
@@ -573,8 +574,8 @@ function FourSection() {
 
                     <div className={style.row}>
                         <div className={style.distribution_map}>
-                            <img
-                                src="https://somaxgroup.com/assets/img/Home/world_map.png"
+                            <Image
+                                src={map}
                                 alt="Map World"
                                 style={{ filter: "invert(0)" }}
                             />

@@ -1372,10 +1372,13 @@ p.branches {
 
 .distribution_map > img {
   width: 100%;
+  height: auto;
   position: relative;
   margin: 0;
   padding: 0;
 }
+
+
 
 #vmcv .container {
   z-index: 9;
