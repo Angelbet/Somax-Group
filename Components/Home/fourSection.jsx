@@ -570,6 +570,18 @@ function FourSection() {
                             </div>
                         </div>
                     </div>
+
+                    <div className={style.row}>
+                        <div className={style.distribution_map}>
+                            <img
+                                src="https://somaxgroup.com/assets/img/Home/world_map.png"
+                                alt="Map World"
+                                style={{ filter: "invert(0)" }}
+                            />
+                        </div>
+
+                    </div>
+
                 </div>
             </section>
         </>

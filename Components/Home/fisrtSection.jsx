@@ -14,16 +14,18 @@ function FisrtSection() {
     useEffect(() => {
         const images = ["#image1", "#image2", "#image3"];
         const texts = ["#text1", "#text2", "#text3"];
-
+    
         const tl = gsap.timeline({ repeat: -1 });
-
+    
         for (let i = 0; i < images.length; i++) {
-            tl.set([images[i], texts[i]], { display: "block", x: -100 }) // Desplaza inicialmente los elementos 100px a la izquierda
-                .to([images[i], texts[i]], { duration: 1, opacity: 1, x: 0 }) // Los mueve a su posición original con opacidad completa
-                .to([images[i], texts[i]], { duration: 1, opacity: 0, x: 100 }, "+=1") // Los mueve 100px a la derecha y los oculta
-                .to([images[i], texts[i]], { display: "none", x: 0 }, "+=1"); // Los devuelve a su posición original y los oculta
+            tl.set([images[i], texts[i]], { display: "block", x: 100, opacity: 0, }) // Desplaza inicialmente los elementos 100px a la izquierda
+                .to([images[i], texts[i]], { duration: 1, opacity: 1, x: 0, ease: "power1.out", stagger: { amount: 0.5, from: "start" } }) // Los mueve a su posición original con opacidad completa y una transición suave
+                .to([images[i], texts[i]], { duration: 1, opacity: 0, x: -100, ease: "power1.in", stagger: { amount: 0.5, from: "start" } }, "+=1") // Los mueve 100px a la derecha y los oculta con una transición suave
+                .to([images[i], texts[i]], { display: "none", x: 0, ease: "power1.in", stagger: { amount: 0.5, from: "start" } }, "+=1"); // Los devuelve a su posición original y los oculta con una transición suave
         }
     }, []);
+    
+    
 
 
 
@@ -539,13 +541,13 @@ function FisrtSection() {
                                                             <span className={style.button_text2}>View Detail</span>
                                                         </button>
                                                     </a>
-                                                    <a href="#sec3">
+                                                    {/* <a href="#sec3">
                                                         <button className={style.learn_more222}>
                                                             {" "}
                                                             <span className={style.circlee222} aria-hidden="true" />
                                                             <span className={style.button_text2}>Request a quote</span>
                                                         </button>
-                                                    </a>
+                                                    </a> */}
                                                 </div>
 
                                             </div>
@@ -568,7 +570,7 @@ function FisrtSection() {
                                         <div
                                             className={`${style.swiper_slide} ${style.swiper_slide_duplicate} ${style.swiper_slide_duplicate_active}`}
                                             data-swiper-slide-index={4}
-                                            style={{ width: 941 }}
+                                            style={{ width: 941,  opacity: "0" }}
                                             id='image1'
                                         >
                                             <div
@@ -585,7 +587,7 @@ function FisrtSection() {
                                         <div
                                             className={`${style.swiper_slide} ${style.swiper_slide_duplicate} ${style.swiper_slide_duplicate_active}`}
                                             data-swiper-slide-index={4}
-                                            style={{ width: 941 }}
+                                            style={{ width: 941,  opacity: "0" }}
                                             id='image2'
                                         >
                                             <div
@@ -602,7 +604,7 @@ function FisrtSection() {
                                         <div
                                             className={`${style.swiper_slide} ${style.swiper_slide_duplicate} ${style.swiper_slide_duplicate_active}`}
                                             data-swiper-slide-index={4}
-                                            style={{ width: 941 }}
+                                            style={{ width: 941,  opacity: "0" }}
                                             id='image3'
                                         >
                                             <div

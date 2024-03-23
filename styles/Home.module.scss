@@ -429,7 +429,7 @@ p.branches {
 .half_hero_wrap {
   position: absolute;
   top: 20%;
-  left: 35%;
+  left: 40%;
 }
 
 .hhw_header {
@@ -1362,6 +1362,21 @@ p.branches {
   opacity: 0.4;
 }
 
+.distribution_map {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.distribution_map > img {
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
 #vmcv .container {
   z-index: 9;
 }
@@ -1868,7 +1883,7 @@ img.deskdot {
 
   .half_hero_wrap {
     top: 8vw;
-    left: 32vw;
+    left: 35vw;
   }
 
   .half_hero_wrap h1,
@@ -2723,7 +2738,7 @@ img.deskdot {
 
 @media only screen and (max-height: 600px) {
   .half_hero_wrap {
-    top: 15%;
+    top: 2vw;
   }
 
   .half_hero_wrap h1 {
