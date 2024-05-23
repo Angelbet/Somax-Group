@@ -1301,7 +1301,8 @@ p.branches {
   }
 
   .col_sm_7 {
-    width: 52.33333333%;
+    // width: 52.33333333%;
+    width: 100.333333%;
   }
 }
 
@@ -1370,7 +1371,7 @@ p.branches {
   margin: 0 auto;
 }
 
-.distribution_map > img {
+.distribution_map>img {
   width: 100%;
   height: auto;
   position: relative;
@@ -1378,7 +1379,188 @@ p.branches {
   padding: 0;
 }
 
+// MAP 
+.imp_tooltip {
+  border-radius: 3rem;
+  padding: 20px;
+  background: #f89d13;
+  position: absolute;
+  left: 50%;
+  top: 50%;
 
+  &.imp_tooltip_1 {
+    left: 22%;
+    top: 46%;
+    background: #9b9b9b;
+  }
+
+  &.imp_tooltip_2 {
+    left: 23.5%;
+    top: 49%;
+  }
+
+  &.imp_tooltip_3 {
+    left: 30.5%;
+    top: 55%;
+  }
+
+  &.imp_tooltip_4 {
+    left: 16.5%;
+    top: 28%;
+  }
+
+  &.imp_tooltip_5 {
+    left: 45.5%;
+    top: 45%;
+  }
+
+  &.imp_tooltip_6 {
+    left: 49.5%;
+    top: 28%;
+  }
+
+  &.imp_tooltip_7 {
+    left: 52.5%;
+    top: 28%;
+  }
+
+  &.imp_tooltip_8 {
+    left: 47.5%;
+    top: 26%;
+  }
+
+  &.imp_tooltip_9 {
+    left: 69.9%;
+    top: 42%;
+  }
+
+  &.imp_tooltip_10 {
+    left: 40.5%;
+    top: 20%;
+  }
+
+  &.imp_tooltip_11 {
+    left: 76.1%;
+    top: 29%;
+  }
+
+  &.imp_tooltip_12 {
+    left: 43.3%;
+    top: 28.5%;
+  }
+
+  &.imp_tooltip_13 {
+    left: 25.5%;
+    top: 47.5%;
+    background: #9b9b9b;
+  }
+
+  &.imp_tooltip_14 {
+    left: 71.2%;
+    top: 32.5%;
+  }
+
+  &.imp_tooltip_15 {
+    left: 51.5%;
+    top: 35.8%;
+  }
+
+  &.imp_tooltip_16 {
+    left: 41.5%;
+    top: 28.5%;
+    background: #9b9b9b;
+  }
+}
+
+.target {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border-radius: 50%;
+
+  &.target_1 {
+    left: 24.55%;
+    top: 56.5%;
+  }
+
+  &.target_2 {
+    left: 26.5%;
+    top: 60%;
+  }
+
+  &.target_3 {
+    left: 32.5%;
+    top: 66%;
+  }
+
+  &.target_4 {
+    left: 18.5%;
+    top: 39%;
+  }
+
+  &.target_5 {
+    left: 48.5%;
+    top: 56%;
+  }
+
+  &.target_6 {
+    left: 52.5%;
+    top: 39%;
+  }
+
+  &.target_7 {
+    left: 55.5%;
+    top: 39%;
+  }
+
+  &.target_8 {
+    left: 49.5%;
+    top: 37%;
+  }
+
+  &.target_9 {
+    left: 72.9%;
+    top: 53%;
+  }
+
+  &.target_10 {
+    left: 45.9%;
+    top: 31%;
+  }
+
+  &.target_11 {
+    left: 80.1%;
+    top: 40.5%;
+  }
+
+  &.target_12 {
+    left: 45.3%;
+    top: 39.5%;
+  }
+
+  &.target_13 {
+    left: 28.5%;
+    top: 57.5%;
+  }
+
+  &.target_14 {
+    left: 73.5%;
+    top: 43.5%;
+  }
+
+  &.target_15 {
+    left: 53.8%;
+    top: 46.5%;
+  }
+
+  &.target_16 {
+    left: 44.3%;
+    top: 39.5%;
+  }
+}
+
+// MAP
 
 #vmcv .container {
   z-index: 9;
@@ -1426,6 +1608,11 @@ p.branches {
   position: relative;
   line-height: 60px;
   color: $orange;
+}
+
+.imp_tooltip_plain_text {
+  font-family: 'Oswald', sans-serif;
+
 }
 
 #vmcv h1 span,
@@ -1893,7 +2080,7 @@ img.deskdot {
   .half_hero_wrap h2 {
     max-width: 510px;
   }
-  
+
   .section_title h3,
   .section_title h1 {
     font-size: 38px;

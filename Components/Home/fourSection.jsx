@@ -151,6 +151,173 @@ function FourSection() {
         gsap.set(textRef.current, { duration: 0.4, color: "black" });
         gsap.to(baseImageRef.current, { display: "block", duration: 1, autoAlpha: 1 }); // Muestra la imagen base
     };
+
+
+    const targetRef = useRef(null);
+    const targetRef_2 = useRef(null);
+    const targetRef_3 = useRef(null);
+    const targetRef_4 = useRef(null);
+    const targetRef_5 = useRef(null);
+    const targetRef_6 = useRef(null);
+    const targetRef_7 = useRef(null);
+    const targetRef_8 = useRef(null);
+    const targetRef_9 = useRef(null);
+    const targetRef_10 = useRef(null);
+    const targetRef_11 = useRef(null);
+    const targetRef_12 = useRef(null);
+    const targetRef_13 = useRef(null);
+    const targetRef_14 = useRef(null);
+    const targetRef_15 = useRef(null);
+    const targetRef_16 = useRef(null);
+
+    const [showTooltip, setShowTooltip] = useState(false);
+    const [showTooltip_2, setShowTooltip_2] = useState(false);
+    const [showTooltip_3, setShowTooltip_3] = useState(false);
+    const [showTooltip_4, setShowTooltip_4] = useState(false);
+    const [showTooltip_5, setShowTooltip_5] = useState(false);
+    const [showTooltip_6, setShowTooltip_6] = useState(false);
+    const [showTooltip_7, setShowTooltip_7] = useState(false);
+    const [showTooltip_8, setShowTooltip_8] = useState(false);
+    const [showTooltip_9, setShowTooltip_9] = useState(false);
+    const [showTooltip_10, setShowTooltip_10] = useState(false);
+    const [showTooltip_11, setShowTooltip_11] = useState(false);
+    const [showTooltip_12, setShowTooltip_12] = useState(false);
+    const [showTooltip_13, setShowTooltip_13] = useState(false);
+    const [showTooltip_14, setShowTooltip_14] = useState(false);
+    const [showTooltip_15, setShowTooltip_15] = useState(false);
+    const [showTooltip_16, setShowTooltip_16] = useState(false);
+
+
+    const handleMouseEnterTooltip = () => {
+        gsap.to(targetRef.current, { scale: 1.2, duration: 0.2, ease: "power1.out" });
+        setShowTooltip(true);
+    };
+    const handleMouseLeaveTooltip = () => {
+        gsap.to(targetRef.current, { scale: 1, duration: 0.2, ease: "power1.in" });
+        setShowTooltip(false);
+    };
+    const handleMouseEnterTooltip_2 = () => {
+        gsap.to(targetRef_2.current, { scale: 1.2, duration: 0.2, ease: "power1.out" });
+        setShowTooltip_2(true);
+    };
+    const handleMouseLeaveTooltip_2 = () => {
+        gsap.to(targetRef_2.current, { scale: 1, duration: 0.2, ease: "power1.in" });
+        setShowTooltip_2(false);
+    };
+    const handleMouseEnterTooltip_3 = () => {
+        gsap.to(targetRef_3.current, { scale: 1.2, duration: 0.2, ease: "power1.out" });
+        setShowTooltip_3(true);
+    };
+    const handleMouseLeaveTooltip_3 = () => {
+        gsap.to(targetRef_3.current, { scale: 1, duration: 0.2, ease: "power1.in" });
+        setShowTooltip_3(false);
+    };
+    const handleMouseEnterTooltip_4 = () => {
+        gsap.to(targetRef_4.current, { scale: 1.2, duration: 0.2, ease: "power1.out" });
+        setShowTooltip_4(true);
+    };
+    const handleMouseLeaveTooltip_4 = () => {
+        gsap.to(targetRef_4.current, { scale: 1, duration: 0.2, ease: "power1.in" });
+        setShowTooltip_4(false);
+    };
+    const handleMouseEnterTooltip_5 = () => {
+        gsap.to(targetRef_5.current, { scale: 1.2, duration: 0.2, ease: "power1.out" });
+        setShowTooltip_5(true);
+    };
+    const handleMouseLeaveTooltip_5 = () => {
+        gsap.to(targetRef_5.current, { scale: 1, duration: 0.2, ease: "power1.in" });
+        setShowTooltip_5(false);
+    };
+    const handleMouseEnterTooltip_6 = () => {
+        gsap.to(targetRef_6.current, { scale: 1.2, duration: 0.2, ease: "power1.out" });
+        setShowTooltip_6(true);
+    };
+    const handleMouseLeaveTooltip_6 = () => {
+        gsap.to(targetRef_6.current, { scale: 1, duration: 0.2, ease: "power1.in" });
+        setShowTooltip_6(false);
+    };
+    const handleMouseEnterTooltip_7 = () => {
+        gsap.to(targetRef_7.current, { scale: 1.2, duration: 0.2, ease: "power1.out" });
+        setShowTooltip_7(true);
+    };
+    const handleMouseLeaveTooltip_7 = () => {
+        gsap.to(targetRef_7.current, { scale: 1, duration: 0.2, ease: "power1.in" });
+        setShowTooltip_7(false);
+    };
+    const handleMouseEnterTooltip_8 = () => {
+        gsap.to(targetRef_8.current, { scale: 1.2, duration: 0.2, ease: "power1.out" });
+        setShowTooltip_8(true);
+    };
+    const handleMouseLeaveTooltip_8 = () => {
+        gsap.to(targetRef_8.current, { scale: 1, duration: 0.2, ease: "power1.in" });
+        setShowTooltip_8(false);
+    };
+    const handleMouseEnterTooltip_9 = () => {
+        gsap.to(targetRef_9.current, { scale: 1.2, duration: 0.2, ease: "power1.out" });
+        setShowTooltip_9(true);
+    };
+    const handleMouseLeaveTooltip_9 = () => {
+        gsap.to(targetRef_9.current, { scale: 1, duration: 0.2, ease: "power1.in" });
+        setShowTooltip_9(false);
+    };
+    const handleMouseEnterTooltip_10 = () => {
+        gsap.to(targetRef_10.current, { scale: 1.2, duration: 0.2, ease: "power1.out" });
+        setShowTooltip_10(true);
+    };
+    const handleMouseLeaveTooltip_10 = () => {
+        gsap.to(targetRef_10.current, { scale: 1, duration: 0.2, ease: "power1.in" });
+        setShowTooltip_10(false);
+    };
+    const handleMouseEnterTooltip_11 = () => {
+        gsap.to(targetRef_11.current, { scale: 1.2, duration: 0.2, ease: "power1.out" });
+        setShowTooltip_11(true);
+    };
+    const handleMouseLeaveTooltip_11 = () => {
+        gsap.to(targetRef_11.current, { scale: 1, duration: 0.2, ease: "power1.in" });
+        setShowTooltip_11(false);
+    };
+    const handleMouseEnterTooltip_12 = () => {
+        gsap.to(targetRef_12.current, { scale: 1.2, duration: 0.2, ease: "power1.out" });
+        setShowTooltip_12(true);
+    };
+    const handleMouseLeaveTooltip_12 = () => {
+        gsap.to(targetRef_12.current, { scale: 1, duration: 0.2, ease: "power1.in" });
+        setShowTooltip_12(false);
+    };
+    const handleMouseEnterTooltip_13 = () => {
+        gsap.to(targetRef_13.current, { scale: 1.2, duration: 0.2, ease: "power1.out" });
+        setShowTooltip_13(true);
+    };
+    const handleMouseLeaveTooltip_13 = () => {
+        gsap.to(targetRef_13.current, { scale: 1, duration: 0.2, ease: "power1.in" });
+        setShowTooltip_13(false);
+    };
+    const handleMouseEnterTooltip_14 = () => {
+        gsap.to(targetRef_14.current, { scale: 1.2, duration: 0.2, ease: "power1.out" });
+        setShowTooltip_14(true);
+    };
+    const handleMouseLeaveTooltip_14 = () => {
+        gsap.to(targetRef_14.current, { scale: 1, duration: 0.2, ease: "power1.in" });
+        setShowTooltip_14(false);
+    };
+    const handleMouseEnterTooltip_15 = () => {
+        gsap.to(targetRef_15.current, { scale: 1.2, duration: 0.2, ease: "power1.out" });
+        setShowTooltip_15(true);
+    };
+    const handleMouseLeaveTooltip_15 = () => {
+        gsap.to(targetRef_15.current, { scale: 1, duration: 0.2, ease: "power1.in" });
+        setShowTooltip_15(false);
+    };
+    const handleMouseEnterTooltip_16 = () => {
+        gsap.to(targetRef_16.current, { scale: 1.2, duration: 0.2, ease: "power1.out" });
+        setShowTooltip_16(true);
+    };
+    const handleMouseLeaveTooltip_16 = () => {
+        gsap.to(targetRef_16.current, { scale: 1, duration: 0.2, ease: "power1.in" });
+        setShowTooltip_16(false);
+    };
+
+
     return (
         <>
             <section className={`${style.scroll_sec} ${style.bgclra} ${style.pb_80}`} id={style["sec1"]}>
@@ -287,6 +454,14 @@ function FourSection() {
                                     >
                                         China
                                     </a>
+                                    |{" "}
+                                    <a
+                                        href="#"
+                                        onMouseEnter={() => handleMouseEnter('Portugal')}
+                                        onMouseLeave={handleMouseLeave}
+                                    >
+                                        Portugal
+                                    </a>
                                 </p>
                                 <p>
                                     Our associates are internationally certificated in ship brokerage, audits,
@@ -302,7 +477,7 @@ function FourSection() {
                                 </a> */}
                             </div>
                         </div>
-                        <div className={`${style.col_sm_5} ${style.pt_100}`}>
+                        {/* <div className={`${style.col_sm_5} ${style.pt_100}`}>
                             <div className={`${style.blog_media} ${style.fl_wrap} ${style.pttlr}`}>
                                 <div className={style.single_slider_wrap}>
                                     <div className={`${style.single_slider} ${style.fl_wrap}`}>
@@ -551,35 +726,456 @@ function FourSection() {
                                             />
                                         </div>
                                     </div>
-                                    {/* <div
-                                        className={`${style.ss_slider_cont} ${style.ss_slider_cont_prev}`}
-                                        tabIndex={0}
-                                        role="button"
-                                        aria-label="Previous slide"
-                                    >
-                                        <i className="fal fa-angle-left" />
-                                    </div>
-                                    <div
-                                        className={`${style.ss_slider_cont} ${style.ss_slider_cont_next}`}
-                                        tabIndex={0}
-                                        role="button"
-                                        aria-label="Next slide"
-                                    >
-                                        <i className="fal fa-angle-right" />
-                                    </div> */}
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className={style.row}>
-                        <div className={style.distribution_map}>
+                        <div className={style.distribution_map} style={{ overflow: "hidden", position: "relative" }}>
                             <Image
                                 src={map}
                                 alt="Map World"
-                                style={{ filter: "invert(0)" }}
+                                style={{ objectFit: "cover", position: "abosolute", width: "100%", height: "100%", left: 0, top: 0 }}
                             />
+
+                            <div
+                                className={`${style.target} ${style.target_1}`}
+                                ref={targetRef}
+                                onMouseEnter={handleMouseEnterTooltip}
+                                onMouseLeave={handleMouseLeaveTooltip}
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width={16}
+                                    height={16}
+                                    fill="#9b9b9b"
+                                    className="bi bi-geo-alt-fill"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10m0-7a3 3 0 110-6 3 3 0 010 6" />
+                                </svg>
+                            </div>
+                            <div
+                                className={`${style.target} ${style.target_2}`}
+                                ref={targetRef_2}
+                                onMouseEnter={handleMouseEnterTooltip_2}
+                                onMouseLeave={handleMouseLeaveTooltip_2}
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width={16}
+                                    height={16}
+                                    fill="#f89d13"
+                                    className="bi bi-geo-alt-fill"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10m0-7a3 3 0 110-6 3 3 0 010 6" />
+                                </svg>
+                            </div>
+                            <div
+                                className={`${style.target} ${style.target_3}`}
+                                ref={targetRef_3}
+                                onMouseEnter={handleMouseEnterTooltip_3}
+                                onMouseLeave={handleMouseLeaveTooltip_3}
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width={16}
+                                    height={16}
+                                    fill="#f89d13"
+                                    className="bi bi-geo-alt-fill"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10m0-7a3 3 0 110-6 3 3 0 010 6" />
+                                </svg>
+                            </div>
+                            <div
+                                className={`${style.target} ${style.target_4}`}
+                                ref={targetRef_4}
+                                onMouseEnter={handleMouseEnterTooltip_4}
+                                onMouseLeave={handleMouseLeaveTooltip_4}
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width={16}
+                                    height={16}
+                                    fill="#f89d13"
+                                    className="bi bi-geo-alt-fill"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10m0-7a3 3 0 110-6 3 3 0 010 6" />
+                                </svg>
+                            </div>
+                            <div
+                                className={`${style.target} ${style.target_5}`}
+                                ref={targetRef_5}
+                                onMouseEnter={handleMouseEnterTooltip_5}
+                                onMouseLeave={handleMouseLeaveTooltip_5}
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width={16}
+                                    height={16}
+                                    fill="#f89d13"
+                                    className="bi bi-geo-alt-fill"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10m0-7a3 3 0 110-6 3 3 0 010 6" />
+                                </svg>
+                            </div>
+                            <div
+                                className={`${style.target} ${style.target_6}`}
+                                ref={targetRef_6}
+                                onMouseEnter={handleMouseEnterTooltip_6}
+                                onMouseLeave={handleMouseLeaveTooltip_6}
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width={16}
+                                    height={16}
+                                    fill="#f89d13"
+                                    className="bi bi-geo-alt-fill"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10m0-7a3 3 0 110-6 3 3 0 010 6" />
+                                </svg>
+                            </div>
+                            <div
+                                className={`${style.target} ${style.target_7}`}
+                                ref={targetRef_7}
+                                onMouseEnter={handleMouseEnterTooltip_7}
+                                onMouseLeave={handleMouseLeaveTooltip_7}
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width={16}
+                                    height={16}
+                                    fill="#f89d13"
+                                    className="bi bi-geo-alt-fill"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10m0-7a3 3 0 110-6 3 3 0 010 6" />
+                                </svg>
+                            </div>
+                            <div
+                                className={`${style.target} ${style.target_8}`}
+                                ref={targetRef_8}
+                                onMouseEnter={handleMouseEnterTooltip_8}
+                                onMouseLeave={handleMouseLeaveTooltip_8}
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width={16}
+                                    height={16}
+                                    fill="#f89d13"
+                                    className="bi bi-geo-alt-fill"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10m0-7a3 3 0 110-6 3 3 0 010 6" />
+                                </svg>
+                            </div>
+                            <div
+                                className={`${style.target} ${style.target_9}`}
+                                ref={targetRef_9}
+                                onMouseEnter={handleMouseEnterTooltip_9}
+                                onMouseLeave={handleMouseLeaveTooltip_9}
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width={16}
+                                    height={16}
+                                    fill="#f89d13"
+                                    className="bi bi-geo-alt-fill"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10m0-7a3 3 0 110-6 3 3 0 010 6" />
+                                </svg>
+                            </div>
+                            <div
+                                className={`${style.target} ${style.target_10}`}
+                                ref={targetRef_10}
+                                onMouseEnter={handleMouseEnterTooltip_10}
+                                onMouseLeave={handleMouseLeaveTooltip_10}
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width={16}
+                                    height={16}
+                                    fill="#f89d13"
+                                    className="bi bi-geo-alt-fill"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10m0-7a3 3 0 110-6 3 3 0 010 6" />
+                                </svg>
+                            </div>
+                            <div
+                                className={`${style.target} ${style.target_11}`}
+                                ref={targetRef_11}
+                                onMouseEnter={handleMouseEnterTooltip_11}
+                                onMouseLeave={handleMouseLeaveTooltip_11}
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width={16}
+                                    height={16}
+                                    fill="#f89d13"
+                                    className="bi bi-geo-alt-fill"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10m0-7a3 3 0 110-6 3 3 0 010 6" />
+                                </svg>
+                            </div>
+                            <div
+                                className={`${style.target} ${style.target_12}`}
+                                ref={targetRef_12}
+                                onMouseEnter={handleMouseEnterTooltip_12}
+                                onMouseLeave={handleMouseLeaveTooltip_12}
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width={16}
+                                    height={16}
+                                    fill="#f89d13"
+                                    className="bi bi-geo-alt-fill"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10m0-7a3 3 0 110-6 3 3 0 010 6" />
+                                </svg>
+                            </div>
+                            <div
+                                className={`${style.target} ${style.target_13}`}
+                                ref={targetRef_13}
+                                onMouseEnter={handleMouseEnterTooltip_13}
+                                onMouseLeave={handleMouseLeaveTooltip_13}
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width={16}
+                                    height={16}
+                                    fill="#9b9b9b"
+                                    className="bi bi-geo-alt-fill"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10m0-7a3 3 0 110-6 3 3 0 010 6" />
+                                </svg>
+                            </div>
+                            <div
+                                className={`${style.target} ${style.target_14}`}
+                                ref={targetRef_14}
+                                onMouseEnter={handleMouseEnterTooltip_14}
+                                onMouseLeave={handleMouseLeaveTooltip_14}
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width={16}
+                                    height={16}
+                                    fill="#f89d13"
+                                    className="bi bi-geo-alt-fill"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10m0-7a3 3 0 110-6 3 3 0 010 6" />
+                                </svg>
+                            </div>
+                            <div
+                                className={`${style.target} ${style.target_15}`}
+                                ref={targetRef_15}
+                                onMouseEnter={handleMouseEnterTooltip_15}
+                                onMouseLeave={handleMouseLeaveTooltip_15}
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width={16}
+                                    height={16}
+                                    fill="#f89d13"
+                                    className="bi bi-geo-alt-fill"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10m0-7a3 3 0 110-6 3 3 0 010 6" />
+                                </svg>
+                            </div>
+                            <div
+                                className={`${style.target} ${style.target_16}`}
+                                ref={targetRef_16}
+                                onMouseEnter={handleMouseEnterTooltip_16}
+                                onMouseLeave={handleMouseLeaveTooltip_16}
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width={16}
+                                    height={16}
+                                    fill="#9b9b9b"
+                                    className="bi bi-geo-alt-fill"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10m0-7a3 3 0 110-6 3 3 0 010 6" />
+                                </svg>
+                            </div>
+
+
+                            {showTooltip && (
+                                <div className={`${style.imp_tooltip} ${style.imp_tooltip_1}`}>
+                                    <div
+                                        style={{ borderTopColor: "#f89d13" }}
+                                    />
+                                    <div className={style.imp_tooltip_plain_text} style={{ color: "#ffffff" }}>
+                                        Panama
+                                    </div>
+                                </div>
+                            )}
+                            {showTooltip_2 && (
+                                <div className={`${style.imp_tooltip} ${style.imp_tooltip_2}`}>
+                                    <div
+                                        style={{ borderTopColor: "#f89d13" }}
+                                    />
+                                    <div className={style.imp_tooltip_plain_text} style={{ color: "#ffffff" }}>
+                                        Colombia
+                                    </div>
+                                </div>
+                            )}
+                            {showTooltip_3 && (
+                                <div className={`${style.imp_tooltip} ${style.imp_tooltip_3}`}>
+                                    <div
+                                        style={{ borderTopColor: "#f89d13" }}
+                                    />
+                                    <div className={style.imp_tooltip_plain_text} style={{ color: "#ffffff" }}>
+                                        Brasil
+                                    </div>
+                                </div>
+                            )}
+                            {showTooltip_4 && (
+                                <div className={`${style.imp_tooltip} ${style.imp_tooltip_4}`}>
+                                    <div
+                                        style={{ borderTopColor: "#f89d13" }}
+                                    />
+                                    <div className={style.imp_tooltip_plain_text} style={{ color: "#ffffff" }}>
+                                        USA
+                                    </div>
+                                </div>
+                            )}
+                            {showTooltip_5 && (
+                                <div className={`${style.imp_tooltip} ${style.imp_tooltip_5}`}>
+                                    <div
+                                        style={{ borderTopColor: "#f89d13" }}
+                                    />
+                                    <div className={style.imp_tooltip_plain_text} style={{ color: "#ffffff" }}>
+                                        Nigeria
+                                    </div>
+                                </div>
+                            )}
+                            {showTooltip_6 && (
+                                <div className={`${style.imp_tooltip} ${style.imp_tooltip_6}`}>
+                                    <div
+                                        style={{ borderTopColor: "#f89d13" }}
+                                    />
+                                    <div className={style.imp_tooltip_plain_text} style={{ color: "#ffffff" }}>
+                                        Greece
+                                    </div>
+                                </div>
+                            )}
+                            {showTooltip_7 && (
+                                <div className={`${style.imp_tooltip} ${style.imp_tooltip_7}`}>
+                                    <div
+                                        style={{ borderTopColor: "#f89d13" }}
+                                    />
+                                    <div className={style.imp_tooltip_plain_text} style={{ color: "#ffffff" }}>
+                                        Turkey
+                                    </div>
+                                </div>
+                            )}
+                            {showTooltip_8 && (
+                                <div className={`${style.imp_tooltip} ${style.imp_tooltip_8}`}>
+                                    <div
+                                        style={{ borderTopColor: "#f89d13" }}
+                                    />
+                                    <div className={style.imp_tooltip_plain_text} style={{ color: "#ffffff" }}>
+                                        Italy
+                                    </div>
+                                </div>
+                            )}
+                            {showTooltip_9 && (
+                                <div className={`${style.imp_tooltip} ${style.imp_tooltip_9}`}>
+                                    <div
+                                        style={{ borderTopColor: "#f89d13" }}
+                                    />
+                                    <div className={style.imp_tooltip_plain_text} style={{ color: "#ffffff" }}>
+                                        Thailand
+                                    </div>
+                                </div>
+                            )}
+                            {showTooltip_10 && (
+                                <div className={`${style.imp_tooltip} ${style.imp_tooltip_10}`}>
+                                    <div
+                                        style={{ borderTopColor: "#f89d13" }}
+                                    />
+                                    <div className={style.imp_tooltip_plain_text} style={{ color: "#ffffff" }}>
+                                        United Kingdom
+                                    </div>
+                                </div>
+                            )}
+                            {showTooltip_11 && (
+                                <div className={`${style.imp_tooltip} ${style.imp_tooltip_11}`}>
+                                    <div
+                                        style={{ borderTopColor: "#f89d13" }}
+                                    />
+                                    <div className={style.imp_tooltip_plain_text} style={{ color: "#ffffff" }}>
+                                        South Korea
+                                    </div>
+                                </div>
+                            )}
+                            {showTooltip_12 && (
+                                <div className={`${style.imp_tooltip} ${style.imp_tooltip_12}`}>
+                                    <div
+                                        style={{ borderTopColor: "#f89d13" }}
+                                    />
+                                    <div className={style.imp_tooltip_plain_text} style={{ color: "#ffffff" }}>
+                                        Spain
+                                    </div>
+                                </div>
+                            )}
+                            {showTooltip_13 && (
+                                <div className={`${style.imp_tooltip} ${style.imp_tooltip_13}`}>
+                                    <div
+                                        style={{ borderTopColor: "#f89d13" }}
+                                    />
+                                    <div className={style.imp_tooltip_plain_text} style={{ color: "#ffffff" }}>
+                                        Venezuela
+                                    </div>
+                                </div>
+                            )}
+                            {showTooltip_14 && (
+                                <div className={`${style.imp_tooltip} ${style.imp_tooltip_14}`}>
+                                    <div
+                                        style={{ borderTopColor: "#f89d13" }}
+                                    />
+                                    <div className={style.imp_tooltip_plain_text} style={{ color: "#ffffff" }}>
+                                        China
+                                    </div>
+                                </div>
+                            )}
+                            {showTooltip_15 && (
+                                <div className={`${style.imp_tooltip} ${style.imp_tooltip_15}`}>
+                                    <div
+                                        style={{ borderTopColor: "#f89d13" }}
+                                    />
+                                    <div className={style.imp_tooltip_plain_text} style={{ color: "#ffffff" }}>
+                                        Egypt
+                                    </div>
+                                </div>
+                            )}
+                            {showTooltip_16 && (
+                                <div className={`${style.imp_tooltip} ${style.imp_tooltip_16}`}>
+                                    <div
+                                        style={{ borderTopColor: "#f89d13" }}
+                                    />
+                                    <div className={style.imp_tooltip_plain_text} style={{ color: "#ffffff" }}>
+                                        Portugal
+                                    </div>
+                                </div>
+                            )}
+
                         </div>
+
 
                     </div>
 
