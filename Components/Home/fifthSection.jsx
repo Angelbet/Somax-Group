@@ -95,7 +95,6 @@ function FifthSection() {
                                     </Link>
                                 </h4>
                                 <div className={style.clearfix} />{" "}
-                                {/* <span className={style.process_numder}>3</span> */}
                                 <div className={style.show_phdc}>
                                     <Link
                                         style={{ color: "#b1b1b1" }}
